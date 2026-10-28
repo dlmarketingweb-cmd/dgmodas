@@ -1,0 +1,169 @@
+/* Pedido minimo - Super Vaidosa Atacado (js/pedido-minimo.js).
+   So os estilos da trava: bloco no carrinho lateral, nota no produto, barra fixa e aviso. */
+
+/* ---------- Pedido minimo: bloco do carrinho lateral ---------- */
+.sv-minimo {
+  margin: 0 0 14px;
+}
+.sv-minimo[hidden] {
+  display: none;
+}
+.sv-minimo-status {
+  display: block;
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--color_font);
+}
+.sv-minimo-status strong {
+  font-weight: 700;
+}
+.sv-minimo-trilho {
+  height: 8px;
+  border-radius: 999px;
+  background-color: #ececec;
+  overflow: hidden;
+}
+.sv-minimo-enchido {
+  width: 0;
+  height: 100%;
+  border-radius: 999px;
+  background-color: var(--color_base_hover);
+  transition: width .35s ease;
+}
+.sv-ok .sv-minimo-enchido {
+  background-color: var(--color_highlight_hover);
+}
+.sv-minimo.sv-ok .sv-minimo-status {
+  font-weight: 600;
+  color: var(--color_highlight_hover);
+}
+.footer-cart .botao-commerce.buy.sv-bloqueado,
+.footer-cart .botao-commerce.buy.sv-bloqueado:hover {
+  background-color: #e9e9e9;
+  color: #5c5c5c;
+  cursor: not-allowed;
+}
+
+/* Aviso na pagina de produto, logo abaixo do botao Comprar */
+.sv-minimo-nota {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--color_font_secondary);
+}
+.sv-minimo-nota strong {
+  color: var(--color_font);
+}
+
+/* ---------- Pedido minimo: barra fixa em todas as paginas ---------- */
+.sv-barra {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 18;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  background-color: #fff;
+  border-top: 1px solid var(--color_border);
+  box-shadow: 0 -6px 24px rgba(0, 0, 0, .08);
+  font-family: var(--font_family);
+  color: var(--color_font);
+  transform: translateY(110%);
+  transition: transform .25s ease;
+}
+.sv-barra.sv-visivel {
+  transform: none;
+}
+.sv-barra-in {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.sv-barra-info {
+  flex: 1;
+  min-width: 0;
+}
+.sv-barra-texto {
+  margin: 0 0 6px;
+  font-size: 13px;
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sv-barra-texto strong {
+  font-weight: 700;
+}
+.sv-barra-botao {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  height: 42px;
+  padding: 0 18px;
+  border: 0;
+  border-radius: var(--border_radius);
+  background-color: var(--color_highlight);
+  color: var(--color_highlight_font);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+}
+.sv-barra.sv-ok .sv-barra-botao {
+  background-color: var(--color_highlight_hover);
+}
+body.sv-com-barra {
+  padding-bottom: 72px;
+}
+body.sv-com-barra .floating-whatsapp {
+  bottom: 134px;
+}
+
+/* Aviso rapido (toast) */
+.sv-aviso {
+  position: fixed;
+  left: 50%;
+  bottom: 96px;
+  z-index: 30;
+  max-width: calc(100% - 32px);
+  padding: 12px 18px;
+  border-radius: 10px;
+  background-color: #0a0a0a;
+  color: #fff;
+  font-family: var(--font_family);
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 12px);
+  transition: opacity .2s, transform .2s;
+}
+.sv-aviso.sv-visivel {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.sv-tremer {
+  animation: sv-tremer .45s ease;
+}
+@keyframes sv-tremer {
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sv-barra,
+  .sv-aviso,
+  .sv-minimo-enchido {
+    transition: none;
+  }
+  .sv-tremer {
+    animation: none;
+  }
+}

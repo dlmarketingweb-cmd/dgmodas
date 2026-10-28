@@ -1,0 +1,292 @@
+/* ==========================================================================
+   Super Vaidosa Atacado - melhorias de compra no celular
+   Vitrine com a foto inteira, quantidade na pagina de produto, aviso de cor
+   visivel, carrinho com - e +, total da linha e "Continuar comprando".
+   Scripts: js/sv-produto.js e js/sv-carrinho.js.
+   Medidas em px: o tema da SV usa html{font-size:10px} (medidas em rem ficavam pequenas).
+   ========================================================================== */
+
+/* ---------- Vitrine: a foto ocupa o card, no formato real dela (2:3) ---------- */
+.product-card figure.product-image {
+  aspect-ratio: 2 / 3;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+}
+.product-card figure.product-image img {
+  object-fit: cover;
+  object-position: center top;
+}
+@media (max-width: 767px) {
+  .product-card.p-3 {
+    padding: 6px !important;
+  }
+  .product-card figure.product-image.mb-4 {
+    margin-bottom: 12px !important;
+  }
+}
+
+/* ---------- Produto: aviso "Selecione uma opcao" que se ve ---------- */
+#span_erro_carrinho.blocoAlerta {
+  margin: 0 0 12px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background-color: #fdecec;
+  color: #b42318;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
+}
+.sv-escolha-cor {
+  animation: sv-escolha .9s ease 2;
+  border-radius: 12px;
+}
+@keyframes sv-escolha {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(180, 35, 24, 0); }
+  50% { box-shadow: 0 0 0 4px rgba(180, 35, 24, .45); }
+}
+
+/* ---------- Produto: quantidade ---------- */
+/* O tema liga os seus - e + quando acha um campo "quant" e os sobrepoe ao Comprar: o nosso controle substitui. */
+.product-buy .tray-buy-button .increment-page {
+  display: none !important;
+}
+.sv-qtd {
+  width: 100%;
+  margin: 16px 0 4px;
+}
+.sv-qtd-rotulo {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color_font, var(--color_text, #131414));
+}
+.sv-qtd-linha {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+}
+.sv-qtd-controle {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--color_border, #ddd);
+  border-radius: var(--border_radius, 8px);
+  background-color: #fff;
+  overflow: hidden;
+}
+.sv-qtd-controle button {
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--color_font, var(--color_text, #131414));
+  font-family: inherit;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.sv-qtd-controle button:disabled {
+  opacity: .3;
+  cursor: default;
+}
+.sv-qtd-controle input {
+  width: 56px;
+  height: 52px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--color_font, var(--color_text, #131414));
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.sv-qtd-total {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color_font, var(--color_text, #131414));
+}
+
+/* ---------- Produto: avaliacao vazia nao aparece ---------- */
+.product-rating.sv-sem-avaliacao {
+  display: none !important;
+}
+
+/* ---------- Carrinho lateral: quantidade, total da linha e continuar ---------- */
+.cart-sidebar .sv-linha-qtd {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--color_border, #ddd);
+  border-radius: var(--border_radius, 8px);
+  background-color: #fff;
+  overflow: hidden;
+}
+.cart-sidebar .sv-linha-qtd button {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--color_font, var(--color_text, #131414));
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.cart-sidebar .sv-linha-qtd button:disabled {
+  opacity: .3;
+  cursor: default;
+}
+.cart-sidebar .sv-linha-num {
+  min-width: 28px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.cart-sidebar .item .price .sv-linha-total {
+  display: block;
+  font-weight: 700;
+  text-align: right;
+}
+.cart-sidebar .item .price .sv-linha-unit {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6b6b6b;
+  text-align: right;
+}
+.cart-sidebar .item .line-down {
+  align-items: center;
+}
+.cart-sidebar .item.sv-atualizando {
+  opacity: .5;
+  pointer-events: none;
+}
+.cart-sidebar .item .errorStock:not(:empty) {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #c0392b;
+}
+.footer-cart .sv-continuar {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border: 0;
+  background: transparent;
+  color: var(--color_font, var(--color_text, #131414));
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* Abaixo do minimo vira a acao principal */
+.footer-cart .sv-minimo:not(.sv-ok) ~ .sv-continuar {
+  height: 48px;
+  border-radius: var(--border_radius, 8px);
+  background-color: #131414;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Aviso "Escolha o tamanho / a cor" (js/sv-produto.js), logo acima do Comprar */
+.sv-aviso-escolha {
+  width: 100%;
+  margin: 12px 0;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background-color: #fdecec;
+  color: #b42318;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.sv-aviso-escolha[hidden] {
+  display: none;
+}
+
+/* ---------- Rodape ---------- */
+/* Cor principal e secundaria do rodape estao iguais (#F5F5F5) na configuracao: o texto sumia no fundo. */
+.footer .f-sc-color,
+.footer .f-sc-color a,
+.footer .f-sc-color .text,
+.footer .footer-top .h2 {
+  color: #141516 !important;
+}
+/* A faixa final e preta (personalizacao da loja): ali o texto e os logos sao claros. */
+/* A faixa final e preta (#131414, personalizacao da loja) e pintava os textos de #131414:
+   ali texto e logos sao claros. */
+.footer .footer-logo,
+.footer .footer-logo *:not(img) {
+  color: #fff !important;
+}
+/* o tema poe opacity .7 no texto da faixa: branco cheio para ler */
+.footer .footer-logo .text,
+.footer .footer-logo .text * {
+  opacity: 1 !important;
+}
+
+/* Logo da Tray discreto + Desenvolvido por Aprenda e Cresca (link para aprendaecresca.com.br) */
+.footer .sv-creditos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 22px;
+}
+.footer .sv-dev {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  opacity: 1;
+}
+.footer .sv-dev img {
+  display: block;
+  width: auto;
+  height: 18px;
+  opacity: .6;
+  transition: opacity .2s ease-out;
+}
+.footer .sv-dev:hover img {
+  opacity: .9;
+}
+.footer .sv-tray {
+  display: inline-flex;
+  align-items: center;
+  opacity: .6 !important;
+  transition: opacity .2s ease-out;
+}
+.footer .sv-tray:hover {
+  opacity: .8;
+}
+.footer .sv-tray img {
+  display: block;
+  width: auto;
+  height: 22px;
+}
+.footer .tray #NavLogoTray {
+  display: none !important;
+}
+
+/* ---------- Compra rapida nos cards (bloco .svc, codigo da loja) ----------
+   O tema poe padding 10px em todo input e ganhava do padding:0 do bloco: num campo de 22px
+   o numero da quantidade sumia. */
+.product-card .svc .svc-it input {
+  flex: 0 0 32px;
+  width: 32px !important;
+  min-width: 32px;
+  padding: 0 !important;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}

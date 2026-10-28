@@ -1,0 +1,512 @@
+﻿[
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/whatsapp-image-2026-02-12-at-130231-2.jpeg",
+        "path":  "images/products/8181479/whatsapp-image-2026-02-12-at-130231-2.jpeg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/whatsapp-image-2026-02-12-at-130231-4.jpeg",
+        "path":  "images/products/8181479/whatsapp-image-2026-02-12-at-130231-4.jpeg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/whatsapp-image-2026-02-12-at-130231-9.jpeg",
+        "path":  "images/products/8181479/whatsapp-image-2026-02-12-at-130231-9.jpeg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/whatsapp-image-2026-02-12-at-130231-3.jpeg",
+        "path":  "images/products/8181479/whatsapp-image-2026-02-12-at-130231-3.jpeg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/whatsapp-image-2026-02-12-at-130231-6.jpeg",
+        "path":  "images/products/8181479/whatsapp-image-2026-02-12-at-130231-6.jpeg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-biquinis-marquinha-8.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-biquinis-marquinha-8.jpg",
+        "error":  "404|curl: (22) The requested URL returned error: 404 Not Found"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-super-vaidosa-biquini.jpg",
+        "path":  "images/products/6076210/atacado-super-vaidosa-biquini.jpg",
+        "error":  "404|curl: (22) The requested URL returned error: 404 Not Found"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-biquini-marquinha-16.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-biquini-marquinha-16.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-bras-biquini-super-vaidosa.jpg",
+        "path":  "images/products/6076210/atacado-bras-biquini-super-vaidosa.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-biquini-marquinha-17.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-biquini-marquinha-17.jpg",
+        "error":  "404|curl: (22) The requested URL returned error: 404 Not Found"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-biquinis-bras-6.jpg",
+        "path":  "images/products/6076210/super-vaidosa-biquinis-bras-6.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-em-atacado-no-bras.jpg",
+        "path":  "images/products/6076210/biquini-em-atacado-no-bras.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-biquinis-bras-10.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-biquinis-bras-10.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-biquini-marquinha-14.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-biquini-marquinha-14.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-biquinis-marquinha-7.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-biquinis-marquinha-7.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-biquinis-bras-9.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-biquinis-bras-9.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-biquini-marquinha-15.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-biquini-marquinha-15.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-biquini-marquinha-13.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-biquini-marquinha-13.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-biquinis-marquinha-6.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-biquinis-marquinha-6.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-de-poliamida-atacado.jpg",
+        "path":  "images/products/6076210/biquini-de-poliamida-atacado.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-biquinis-bras-8.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-biquinis-bras-8.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-biquinis-bras-5.jpg",
+        "path":  "images/products/6076210/super-vaidosa-biquinis-bras-5.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/conjunto-para-praia-9.jpg",
+        "path":  "images/products/6076210/conjunto-para-praia-9.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/saida-de-praia-13.jpg",
+        "path":  "images/products/6076210/saida-de-praia-13.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/hotpant-biquini-1.png",
+        "path":  "images/products/6076210/hotpant-biquini-1.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/saida-de-praia-11.png",
+        "path":  "images/products/6076210/saida-de-praia-11.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-de-biquinis-33.png",
+        "path":  "images/products/6076210/super-vaidosa-atacado-de-biquinis-33.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-no-bras-de-moda-praia-11.png",
+        "path":  "images/products/6076210/atacado-no-bras-de-moda-praia-11.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-de-biquinis-35.png",
+        "path":  "images/products/6076210/super-vaidosa-atacado-de-biquinis-35.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-praia-em-atacado-76.jpg",
+        "path":  "images/products/6076210/moda-praia-em-atacado-76.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-bras-22.jpg",
+        "path":  "images/products/6076210/atacado-bras-22.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-atacado-69.jpg",
+        "path":  "images/products/6076210/biquini-atacado-69.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-de-fita-no-atacado-23.jpg",
+        "path":  "images/products/6076210/biquini-de-fita-no-atacado-23.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-de-moda-praia-2-25.jpg",
+        "path":  "images/products/6076210/atacado-de-moda-praia-2-25.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-de-moda-praia-3-22.jpg",
+        "path":  "images/products/6076210/atacado-de-moda-praia-3-22.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-biquinis-em-atacado-125.jpg",
+        "path":  "images/products/6076210/super-vaidosa-biquinis-em-atacado-125.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-no-bras-de-moda-praia-15.png",
+        "path":  "images/products/6076210/atacado-no-bras-de-moda-praia-15.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-de-fita-11.png",
+        "path":  "images/products/6076210/biquini-de-fita-11.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/saida-de-praia-6.jpg",
+        "path":  "images/products/6076210/saida-de-praia-6.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/vestido-para-praia-4.jpg",
+        "path":  "images/products/6076210/vestido-para-praia-4.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-praia-atacadista-3.jpg",
+        "path":  "images/products/6076210/moda-praia-atacadista-3.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/conjunto-para-praia-4.jpg",
+        "path":  "images/products/6076210/conjunto-para-praia-4.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-moda-praia-25.png",
+        "path":  "images/products/6076210/super-vaidosa-atacado-moda-praia-25.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-bras-biquinis-23.png",
+        "path":  "images/products/6076210/super-vaidosa-atacado-bras-biquinis-23.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-bras-biquinis-2-17.png",
+        "path":  "images/products/6076210/super-vaidosa-atacado-bras-biquinis-2-17.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-biquinis-em-atacado-35.png",
+        "path":  "images/products/6076210/super-vaidosa-biquinis-em-atacado-35.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-biquinis-em-atacado-34.png",
+        "path":  "images/products/6076210/super-vaidosa-biquinis-em-atacado-34.png",
+        "error":  "404|curl: (22) The requested URL returned error: 404 Not Found"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacadista-de-biquinis-12.png",
+        "path":  "images/products/6076210/super-vaidosa-atacadista-de-biquinis-12.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-de-biquinis-27.png",
+        "path":  "images/products/6076210/super-vaidosa-atacado-de-biquinis-27.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-de-fita-7.png",
+        "path":  "images/products/6076210/biquini-de-fita-7.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/conjunto-para-praia-5.png",
+        "path":  "images/products/6076210/conjunto-para-praia-5.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/vestido-para-praia-7.png",
+        "path":  "images/products/6076210/vestido-para-praia-7.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-praia-em-atacado-bras-e-regiao-10.png",
+        "path":  "images/products/6076210/moda-praia-em-atacado-bras-e-regiao-10.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-fita-9.png",
+        "path":  "images/products/6076210/biquini-fita-9.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/saida-de-praia-7.png",
+        "path":  "images/products/6076210/saida-de-praia-7.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-praia-atacado-no-bras-3.jpg",
+        "path":  "images/products/6076210/moda-praia-atacado-no-bras-3.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/conjunto-para-praia-6.jpg",
+        "path":  "images/products/6076210/conjunto-para-praia-6.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-bras-e-regiao-4.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-bras-e-regiao-4.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/design-sem-nome.jpg",
+        "path":  "images/products/6076210/design-sem-nome.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-praia-em-atacado-23.jpg",
+        "path":  "images/products/6076210/moda-praia-em-atacado-23.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-moda-praia-e-casual-atacado-52.jpg",
+        "path":  "images/products/6076210/super-vaidosa-moda-praia-e-casual-atacado-52.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-moda-praia-50.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-moda-praia-50.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-bras-moda-praia-44.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-bras-moda-praia-44.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-bras-75.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-bras-75.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-bras-biquini-biquini-moda-praia-saida-de-praia-2.png",
+        "path":  "images/products/6076210/super-vaidosa-atacado-bras-biquini-biquini-moda-praia-saida-de-praia-2.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-bras-biquini-biquini-moda-praia-saida-de-praia-2-1.png",
+        "path":  "images/products/6076210/super-vaidosa-atacado-bras-biquini-biquini-moda-praia-saida-de-praia-2-1.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-bras-43.png",
+        "path":  "images/products/6076210/super-vaidosa-atacado-bras-43.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-bras-biquinis-34.png",
+        "path":  "images/products/6076210/super-vaidosa-atacado-bras-biquinis-34.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-moda-praia-39.png",
+        "path":  "images/products/6076210/super-vaidosa-atacado-moda-praia-39.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-biquinis-22.jpg",
+        "path":  "images/products/6076210/atacado-biquinis-22.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/saida-de-praia-no-atacado-31.jpg",
+        "path":  "images/products/6076210/saida-de-praia-no-atacado-31.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquinis-atacado-23.jpg",
+        "path":  "images/products/6076210/biquinis-atacado-23.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-atacado-2-25.jpg",
+        "path":  "images/products/6076210/biquini-atacado-2-25.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-atacado-33.jpg",
+        "path":  "images/products/6076210/biquini-atacado-33.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/saida-de-praia-no-atacado-2-1.jpg",
+        "path":  "images/products/6076210/saida-de-praia-no-atacado-2-1.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-de-moda-praia-3-1.png",
+        "path":  "images/products/6076210/atacado-de-moda-praia-3-1.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-praia-em-atacado-bras-e-regiao-13.png",
+        "path":  "images/products/6076210/moda-praia-em-atacado-bras-e-regiao-13.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-no-bras-de-moda-praia-17.png",
+        "path":  "images/products/6076210/atacado-no-bras-de-moda-praia-17.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-de-fita-13.png",
+        "path":  "images/products/6076210/biquini-de-fita-13.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/hotpant-biquini-3.png",
+        "path":  "images/products/6076210/hotpant-biquini-3.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-praia-em-atacado-bras-e-regiao-16.png",
+        "path":  "images/products/6076210/moda-praia-em-atacado-bras-e-regiao-16.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-bras.png",
+        "path":  "images/products/6076210/atacado-bras.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-atacado-13.png",
+        "path":  "images/products/6076210/biquini-atacado-13.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-de-fita-no-atacado.png",
+        "path":  "images/products/6076210/biquini-de-fita-no-atacado.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-praia-em-atacado-22.png",
+        "path":  "images/products/6076210/moda-praia-em-atacado-22.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-praia-em-atacado-23.png",
+        "path":  "images/products/6076210/moda-praia-em-atacado-23.png",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/fornecedor-de-biquini-23.jpg",
+        "path":  "images/products/6076210/fornecedor-de-biquini-23.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-atacado-72.jpg",
+        "path":  "images/products/6076210/biquini-atacado-72.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-bras-26.jpg",
+        "path":  "images/products/6076210/atacado-bras-26.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/biquini-de-fita-no-atacado-26.jpg",
+        "path":  "images/products/6076210/biquini-de-fita-no-atacado-26.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/fornecedores-bras-3.jpg",
+        "path":  "images/products/6076210/fornecedores-bras-3.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacadista-bras-3.jpg",
+        "path":  "images/products/6076210/atacadista-bras-3.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-bras-3.jpg",
+        "path":  "images/products/6076210/moda-bras-3.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-casual-bras-4.jpg",
+        "path":  "images/products/6076210/moda-casual-bras-4.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-praia-bras-5.jpg",
+        "path":  "images/products/6076210/moda-praia-bras-5.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/atacado-bras-59.jpg",
+        "path":  "images/products/6076210/atacado-bras-59.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/moda-casual-bras-13.jpg",
+        "path":  "images/products/6076210/moda-casual-bras-13.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-41.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-41.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-loja-online-16.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-loja-online-16.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-atacado-sp-17.jpg",
+        "path":  "images/products/6076210/super-vaidosa-atacado-sp-17.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-e-confiavel-17.jpg",
+        "path":  "images/products/6076210/super-vaidosa-e-confiavel-17.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    },
+    {
+        "url":  "https://images.tcdn.com.br/img/img_prod/bagy/140425/super-vaidosa-loja-no-bras-16.jpg",
+        "path":  "images/products/6076210/super-vaidosa-loja-no-bras-16.jpg",
+        "error":  "curl: (22) The requested URL returned error: 404 Not Found404|"
+    }
+]
