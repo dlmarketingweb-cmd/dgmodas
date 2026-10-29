@@ -25,6 +25,7 @@
   const categories = [
     { id: "moda-praia", title: "Moda praia", family: "moda-praia" },
     { id: "biquini", title: "Biquínis", category: "biquini" },
+    { id: "biquini-de-fita", title: "Coleção Marquinha de Fita", category: "biquini-de-fita" },
     { id: "maio", title: "Maiôs", category: "maio" },
     { id: "saida-de-praia", title: "Saídas de praia", category: "saida-de-praia" },
     { id: "moda-casual", title: "Moda casual", family: "moda-casual" },
@@ -63,6 +64,7 @@
   let selectedImage = 0;
   let selectedColor = "";
   let selectedSize = "";
+  let sizeSelectionConfirmed = false;
   let promoMessageIndex = 0;
   let activeDrawer = "";
   let drawerClosing = false;
@@ -307,6 +309,7 @@
   function productCard(product) {
     const image = product.images[0];
     const category = categoryFor(product);
+    const requiresVariants = product.category === "biquini-de-fita";
     return `
       <article class="product-card">
         <a class="product-image-link" href="${productHref(product)}" aria-label="Ver ${escapeHTML(product.name)}">
@@ -317,7 +320,9 @@
         ${priceDisplay(product, "card")}
         <div class="card-actions">
           <a class="button button-secondary button-small" href="${productHref(product)}">Ver detalhes</a>
-          <button class="button button-small" type="button" data-action="add" data-product="${escapeHTML(product.id)}">Adicionar ao pedido</button>
+          ${requiresVariants
+            ? `<a class="button button-small" href="${productHref(product)}">Escolher variações</a>`
+            : `<button class="button button-small" type="button" data-action="add" data-product="${escapeHTML(product.id)}">Adicionar ao pedido</button>`}
         </div>
       </article>`;
   }
@@ -406,7 +411,7 @@
       ? BEACHWEAR_SIZES
       : sizesInSource;
     if (!sizes.includes(selectedSize) || !sizeIsSelectable(product, selectedColor, selectedSize)) {
-      selectedSize = sizes.find(function (size) {
+      selectedSize = product.requiresSizeSelection ? "" : sizes.find(function (size) {
         return sizeIsSelectable(product, selectedColor, size);
       }) || "";
     }
@@ -434,6 +439,7 @@
       ? `<div class="variant-field">
           <label for="product-size">Tamanho</label>
           <select class="variant-select" id="product-size" data-variant-size>
+            ${product.requiresSizeSelection ? `<option value="" disabled ${!selectedSize ? "selected" : ""}>Selecione um tamanho</option>` : ""}
             ${sizes.map(function (size) {
               const selectable = sizeIsSelectable(product, selectedColor, size);
               const hasSourceVariant = variantsForColor(product, selectedColor).some(function (variant) {
@@ -468,6 +474,7 @@
             <h1>${escapeHTML(product.name)}</h1>
             <p class="product-description">Confira as fotos disponíveis e adicione esta peça ao seu pedido.</p>
             <div class="variant-selectors">${colorSelector}${sizeSelector}</div>
+            ${product.requiresSizeSelection ? `<p class="product-description">Disponibilidade dos tamanhos P, M e G a confirmar com a loja.</p>` : ""}
             ${priceDisplay(product, "detail")}
             <section class="info-note" aria-labelledby="exchange-policy-title">
               <h2 id="exchange-policy-title">POLÍTICA DE TROCAS E DEVOLUÇÕES</h2>
@@ -477,7 +484,7 @@
               <p>As solicitações serão analisadas conforme o Código de Defesa do Consumidor, respeitando os direitos e prazos legais.</p>
             </section>
             <div class="product-detail-actions">
-              <button class="button" type="button" data-action="add" data-product="${escapeHTML(product.id)}" data-selected-variant="${escapeHTML(selectedSku ? selectedSku.id : "")}" ${product.variants.some(function (variant) { return variant.size; }) && !canAddSelectedVariant ? "disabled" : ""}>Adicionar ao pedido</button>
+              <button class="button" type="button" data-action="add" data-product="${escapeHTML(product.id)}" data-selected-variant="${escapeHTML(selectedSku ? selectedSku.id : "")}" ${product.requiresSizeSelection && (!selectedSize || !sizeSelectionConfirmed) || product.variants.some(function (variant) { return variant.size; }) && !canAddSelectedVariant ? "disabled" : ""}>Adicionar ao pedido</button>
             </div>
           </section>
         </article>
@@ -521,6 +528,7 @@
         return [
           "*PRODUTO " + String(index + 1).padStart(2, "0") + "*",
           "Nome: " + line.product.name,
+          line.product.category === "biquini-de-fita" ? "Coleção: Marquinha de Fita" : "",
           "Cor: " + (line.item.color || "Não informada"),
           "Tamanho: " + (line.item.size || "Não informado"),
           "Quantidade: " + line.item.quantity,
@@ -557,7 +565,7 @@
                 ? `<span class="cart-row-image gallery-unavailable" role="img" aria-label="Imagem não disponível para a cor selecionada"></span>`
                 : `<a class="cart-row-image" href="${productHref(line.product)}"><img src="${escapeHTML(line.item.color ? galleryFor(line.product, line.item.color)[0] : line.product.images[0])}" alt="${escapeHTML(line.product.name)}" loading="lazy"></a>`}
               <div class="cart-row-info"><h3><a href="${productHref(line.product)}">${escapeHTML(line.product.name)}</a></h3>
-                <p>${[line.item.color, line.item.size].filter(Boolean).map(escapeHTML).join(" / ") || "Variação não selecionada"}${line.item.localSize ? " · confirmar disponibilidade" : ""}</p>
+                <p>${line.product.category === "biquini-de-fita" ? "Coleção Marquinha de Fita · " : ""}${[line.item.color, line.item.size].filter(Boolean).map(escapeHTML).join(" / ") || "Variação não selecionada"}${line.item.localSize ? " · confirmar disponibilidade" : ""}</p>
                 <span class="cart-unit-price">${line.price === null ? "Preço não definido" : formatPrice(line.price) + " cada"}</span>
                 <strong class="cart-line-total">${line.price === null ? "" : formatPrice(Math.round(line.price * 100) * line.item.quantity / 100)}</strong>
               </div>
@@ -691,11 +699,13 @@
         : null;
       if (!product || !sizeIsSelectable(product, selectedColor, selectedSize)) {
         selectedSize = "";
+        sizeSelectionConfirmed = false;
       }
       selectedImage = 0;
       render();
     } else if (event.target.matches("[data-variant-size]")) {
       selectedSize = event.target.value;
+      sizeSelectionConfirmed = true;
       render();
     }
   });
@@ -759,6 +769,10 @@
           ? products.find(function (item) { return item.id === productId; })
           : null;
         const variant = detailProduct ? chosenVariant(detailProduct) : null;
+        if (detailProduct && detailProduct.requiresSizeSelection && (!selectedSize || !sizeSelectionConfirmed)) {
+          showToast("Selecione um tamanho antes de adicionar ao pedido.");
+          return;
+        }
         const localOnlySize = !!detailProduct && detailProduct.localSizes.includes(selectedSize) &&
           sizeIsSelectable(detailProduct, selectedColor, selectedSize) && !variant;
         if (detailProduct && detailProduct.variants.some(function (entry) { return entry.size; }) && !variant && !localOnlySize) {
@@ -826,6 +840,7 @@
     selectedImage = 0;
     selectedColor = "";
     selectedSize = "";
+    sizeSelectionConfirmed = false;
     window.clearTimeout(drawerCloseTimer);
     activeDrawer = "";
     drawerClosing = false;
@@ -833,6 +848,19 @@
     if (scrollToPromotionCatalog) {
       scrollToPromotionCatalog = false;
       scrollToCatalog();
+    }
+  });
+
+  window.addEventListener("pageshow", function (event) {
+    if (event.persisted) return;
+    const route = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
+    const product = route[0] === "produto"
+      ? products.find(function (item) { return item.id === route[1]; })
+      : null;
+    if (product && product.requiresSizeSelection) {
+      selectedSize = "";
+      sizeSelectionConfirmed = false;
+      render();
     }
   });
 

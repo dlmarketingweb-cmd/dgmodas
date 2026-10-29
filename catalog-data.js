@@ -31,18 +31,46 @@ window.CATALOG_PRODUCTS = [
     },
     {
         "id":  "biquini-marquinha-fita",
-        "name":  "Biquíni Marquinha Fita",
+        "name":  "Biquíni Marquinha de Fita",
         "path":  "moda-praia/biquini/biquini-marquinha-fita",
-        "category":  "biquini",
+        "category":  "biquini-de-fita",
         "family":  "moda-praia",
         "images":  [
-                       "images/biquni_marquinha_fita_1_20261015101501_a3ee73ba9260.jpg",
-                       "images/biquni_marquinha_fita_2_20261015101501_b72dd6e89cd8.jpg"
+                       "images/colecao-marquinha-de-fita/roxo-1.jpeg",
+                       "images/colecao-marquinha-de-fita/azul-2.jpeg",
+                       "images/colecao-marquinha-de-fita/laranja-3.jpeg",
+                       "images/colecao-marquinha-de-fita/rosa-neon-1.jpeg",
+                       "images/colecao-marquinha-de-fita/rosa-bebe-1.jpeg",
+                       "images/colecao-marquinha-de-fita/preto-1.jpeg"
                    ],
         "price":  "",
         "localSizes":  [
-                           "P"
-                       ]
+                           "P",
+                           "M",
+                           "G"
+                       ],
+        "requiresSizeSelection":  true
+    },
+    {
+        "id":  "biquini-fita-bicolor",
+        "name":  "Biquíni de Fita Bicolor",
+        "path":  "moda-praia/biquini/biquini-fita-bicolor",
+        "category":  "biquini-de-fita",
+        "family":  "moda-praia",
+        "images":  [
+                       "images/colecao-marquinha-de-fita/bicolor-verde-1.jpeg",
+                       "images/colecao-marquinha-de-fita/bicolor-verde-2.jpeg",
+                       "images/colecao-marquinha-de-fita/bicolor-verde-3.jpeg",
+                       "images/colecao-marquinha-de-fita/bicolor-vermelho-1.jpeg",
+                       "images/colecao-marquinha-de-fita/bicolor-vermelho-3_mini.jpeg"
+                   ],
+        "price":  "",
+        "localSizes":  [
+                           "P",
+                           "M",
+                           "G"
+                       ],
+        "requiresSizeSelection":  true
     },
     {
         "id":  "trio-cintia",
@@ -559,7 +587,8 @@ window.CATALOG_PRODUCTS = [
 window.CATALOG_FIXED_PRICES = {
     "trio-loren": 34.99,
     "biquini-daniela": 14.99,
-    "biquini-marquinha-fita": 14.99,
+    "biquini-marquinha-fita": 10.00,
+    "biquini-fita-bicolor": 10.00,
     "biquini-punta-cana-coracao-1": 14.99,
     "saia-carla": 34.99,
     "maio-poly": 19.99,
