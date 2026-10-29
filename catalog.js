@@ -52,10 +52,8 @@
   const STORE_WHATSAPP = "5511941094836";
   const MINIMUM_ORDER = 100;
   const FREE_SHIPPING_THRESHOLD = 250;
-  const AUTOMATIC_DISCOUNT_THRESHOLD_CENTS = 50000;
-  const AUTOMATIC_DISCOUNT_PERCENT = 15;
-  const FIRST_PURCHASE_DISCOUNT_PERCENT = 5;
-  const firstPurchaseValidated = false;
+  const BLACK_FRIDAY_THRESHOLD_CENTS = 50000;
+  const BLACK_FRIDAY_GIFT_CENTS = 10000;
   const BEACHWEAR_SIZES = ["P", "M", "G"];
   const promoMessages = [
     "ENVIAMOS PARA TODO O BRASIL",
@@ -68,6 +66,8 @@
   let promoMessageIndex = 0;
   let activeDrawer = "";
   let drawerClosing = false;
+  let promotionOpen = true;
+  let scrollToPromotionCatalog = false;
   let drawerCloseTimer;
   let toastTimer;
   let promoCarouselTimer;
@@ -140,22 +140,6 @@
       style: "currency",
       currency: "BRL"
     }).format(amount);
-  }
-
-  function discountFor(subtotalCents, isFirstPurchaseValidated) {
-    if (subtotalCents >= AUTOMATIC_DISCOUNT_THRESHOLD_CENTS) {
-      return {
-        percent: AUTOMATIC_DISCOUNT_PERCENT,
-        cents: Math.round(subtotalCents * AUTOMATIC_DISCOUNT_PERCENT / 100)
-      };
-    }
-    if (isFirstPurchaseValidated && subtotalCents > 0) {
-      return {
-        percent: FIRST_PURCHASE_DISCOUNT_PERCENT,
-        cents: Math.round(subtotalCents * FIRST_PURCHASE_DISCOUNT_PERCENT / 100)
-      };
-    }
-    return { percent: 0, cents: 0 };
   }
 
   function categoryFor(product) {
@@ -242,6 +226,23 @@
           </div>
         </div>
       </header>`;
+  }
+
+  function promotionPopup() {
+    if (!promotionOpen) return "";
+    return `
+      <div class="promotion-backdrop" data-action="dismiss-promotion">
+        <section class="promotion-dialog" role="dialog" aria-modal="true" aria-labelledby="promotion-title" aria-describedby="promotion-description">
+          <button class="promotion-close" type="button" data-action="dismiss-promotion" aria-label="Fechar promoção">×</button>
+          <span class="promotion-eyebrow">A oferta mais esperada do ano</span>
+          <h2 id="promotion-title">BLACK FRIDAY <span>DG MODAS</span> 🖤💜</h2>
+          <p class="promotion-main-offer">COMPRE R$ 500 E GANHE R$ 100 EM PRODUTOS GRÁTIS!</p>
+          <p id="promotion-description" class="promotion-description">Todas as peças do nosso catálogo participam. Escolha suas favoritas e combine diferentes produtos grátis até R$ 100.</p>
+          <p class="promotion-total">PAGUE R$ 500 E LEVE R$ 600 EM PRODUTOS!</p>
+          <p class="promotion-terms">Benefício concedido em mercadorias, sem conversão em dinheiro ou desconto.</p>
+          <button class="button promotion-cta" type="button" data-action="browse-promotion">APROVEITAR PROMOÇÃO</button>
+        </section>
+      </div>`;
   }
 
   function footer() {
@@ -364,7 +365,7 @@
           </div>
           <div class="category-grid">${categoryCards}</div>
         </section>
-        <section aria-labelledby="products-heading">
+        <section id="catalog-products" aria-labelledby="products-heading">
           <div class="section-heading">
             <h2 id="products-heading">Peças disponíveis</h2>
             <p>${products.length} produtos identificados nos cartões locais</p>
@@ -504,11 +505,8 @@
     }, 0);
     const total = totalCents / 100;
     const hasMissingPrice = lines.some(function (line) { return line.price === null; });
-    const discount = hasMissingPrice
-      ? { percent: 0, cents: 0 }
-      : discountFor(totalCents, firstPurchaseValidated);
-    const finalProductTotalCents = totalCents - discount.cents;
-    const finalProductTotal = finalProductTotalCents / 100;
+    const blackFridayEligible = !hasMissingPrice && totalCents >= BLACK_FRIDAY_THRESHOLD_CENTS;
+    const finalProductTotal = total;
     const pieceCount = lines.reduce(function (sum, line) { return sum + line.item.quantity; }, 0);
     const minimumOrderReached = !hasMissingPrice && totalCents >= MINIMUM_ORDER * 100;
     const shippingNote = totalCents >= FREE_SHIPPING_THRESHOLD * 100
@@ -537,10 +535,9 @@
       "",
       "Total de peças: " + pieceCount,
       (hasMissingPrice ? "Subtotal dos itens com preço: " : "Subtotal: ") + formatPrice(total),
-      discount.cents
-        ? "Desconto aplicado (" + discount.percent + "%): -" + formatPrice(discount.cents / 100)
-        : "Desconto aplicado: " + formatPrice(0),
-      "Valor economizado: " + formatPrice(discount.cents / 100),
+      "Black Friday: " + (blackFridayEligible
+        ? "benefício liberado — escolha até " + formatPrice(BLACK_FRIDAY_GIFT_CENTS / 100) + " em produtos grátis junto à loja"
+        : "a partir de " + formatPrice(BLACK_FRIDAY_THRESHOLD_CENTS / 100) + " em compras, ganhe " + formatPrice(BLACK_FRIDAY_GIFT_CENTS / 100) + " em produtos grátis"),
       "Frete: " + shippingNote,
       "*TOTAL FINAL DOS PRODUTOS: " + formatPrice(finalProductTotal) + (hasMissingPrice ? " (parcial; há itens sem preço)" : "") + "*",
       "Total final incluindo frete: " + formatPrice(finalProductTotal) + " + frete a calcular",
@@ -576,11 +573,9 @@
         <div class="cart-summary">
           <div class="cart-totals">
             <div class="cart-total-row"><span>${hasMissingPrice ? "Subtotal parcial" : "Subtotal"}</span><strong>${formatPrice(total)}${hasMissingPrice ? " + itens sem preço" : ""}</strong></div>
-            ${discount.cents
-              ? `<div class="cart-total-row discount-row"><span>Desconto (${discount.percent}%)</span><strong>−${formatPrice(discount.cents / 100)}</strong></div>
-                 <p class="discount-message" role="status">🎉 Parabéns! Você ganhou 15% de desconto na sua compra!</p>`
-              : `<div class="cart-total-row"><span>Desconto</span><strong>${formatPrice(0)}</strong></div>`}
-            <div class="cart-total-row"><span>Valor economizado</span><strong>${formatPrice(discount.cents / 100)}</strong></div>
+            <p class="black-friday-cart-note" role="status">${blackFridayEligible
+              ? "🎁 Benefício Black Friday liberado: escolha até R$ 100 em produtos grátis e informe suas opções à loja ao enviar o pedido."
+              : "Na Black Friday, compras a partir de R$ 500 dão direito a R$ 100 em produtos grátis. O benefício é em mercadorias, não em desconto."}</p>
             <div class="cart-total-row cart-total-final"><span>Total final dos produtos</span><strong>${formatPrice(finalProductTotal)}${hasMissingPrice ? " + itens sem preço" : ""}</strong></div>
           </div>
           <p class="shipping-note">${hasMissingPrice ? "Frete: A calcular" : "Frete: " + shippingNote}</p>
@@ -622,6 +617,32 @@
     }, 210);
   }
 
+  function closePromotion(browseCatalog) {
+    promotionOpen = false;
+    if (browseCatalog && location.hash !== "#/") {
+      scrollToPromotionCatalog = true;
+      location.hash = "#/";
+      return;
+    }
+    render();
+    if (browseCatalog) {
+      scrollToCatalog();
+    } else {
+      const brand = app.querySelector(".brand");
+      if (brand) brand.focus();
+    }
+  }
+
+  function scrollToCatalog() {
+    const catalog = app.querySelector("#catalog-products");
+    if (catalog) {
+      catalog.scrollIntoView({
+        behavior: reducedMotionPreference.matches ? "auto" : "smooth",
+        block: "start"
+      });
+    }
+  }
+
   function render() {
     const route = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
     const cartCount = readCart().reduce(function (sum, item) { return sum + item.quantity; }, 0);
@@ -642,11 +663,16 @@
     document.title = route[0] === "produto"
       ? ((products.find(function (product) { return product.id === route[1]; }) || {}).name || "Produto") + " | SuaVitrine"
       : "SuaVitrine | Catálogo digital";
-    app.innerHTML = header(cartCount, activeCategory) + content + footer() + contactButton() + drawer(activeCategory);
-    document.body.classList.toggle("drawer-open", !!activeDrawer);
+    app.innerHTML = header(cartCount, activeCategory) + content + footer() + contactButton() + drawer(activeCategory) + promotionPopup();
+    document.body.classList.toggle("drawer-open", !!activeDrawer || promotionOpen);
     if (activeDrawer) {
       window.requestAnimationFrame(function () {
         const closeButton = app.querySelector(".drawer-close");
+        if (closeButton) closeButton.focus();
+      });
+    } else if (promotionOpen) {
+      window.requestAnimationFrame(function () {
+        const closeButton = app.querySelector(".promotion-close");
         if (closeButton) closeButton.focus();
       });
     }
@@ -691,7 +717,15 @@
     if (target) {
       const action = target.dataset.action;
       const productId = target.dataset.product;
-      if (action === "open-menu" || action === "open-cart") {
+      if (action === "dismiss-promotion") {
+        if (target === event.target || target.matches(".promotion-close")) {
+          closePromotion(false);
+          return;
+        }
+      } else if (action === "browse-promotion") {
+        closePromotion(true);
+        return;
+      } else if (action === "open-menu" || action === "open-cart") {
         activeDrawer = action === "open-menu" ? "menu" : "cart";
         render();
         return;
@@ -770,7 +804,20 @@
   });
 
   window.addEventListener("keydown", function (event) {
-    if (event.key === "Escape" && activeDrawer) {
+    if (event.key === "Escape" && promotionOpen) {
+      closePromotion(false);
+    } else if (event.key === "Tab" && promotionOpen) {
+      const focusable = app.querySelectorAll(".promotion-dialog button:not(:disabled)");
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    } else if (event.key === "Escape" && activeDrawer) {
       closeDrawer();
     }
   });
@@ -783,6 +830,10 @@
     activeDrawer = "";
     drawerClosing = false;
     render();
+    if (scrollToPromotionCatalog) {
+      scrollToPromotionCatalog = false;
+      scrollToCatalog();
+    }
   });
 
   syncPromoCarousel();
