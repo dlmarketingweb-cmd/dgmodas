@@ -3,6 +3,16 @@
 **Data da consulta:** 27/10/2026  
 **Escopo:** inspeção do HTML original preservado em `backup-original/index.html`, arquivos do ZIP, dados locais do catálogo e endpoints públicos do fornecedor. Nenhuma imagem remota foi baixada durante a investigação inicial; a recuperação posterior, autorizada pela usuária, está registrada abaixo. Nenhuma restrição de acesso foi contornada.
 
+## Importação do ZIP de lançamentos — 28/10/2026
+
+- **Comparação:** o ZIP continha 15 produtos na página de lançamentos. Sete IDs já estavam no catálogo; oito IDs ausentes foram adicionados, sem remover ou substituir os 33 produtos existentes.
+- **Produtos importados:** Trio Vanessa (9999120), Maiô Sheila (9999103), Conjunto Kassia (9977279), Saída Angelica (9899353), Vestido Vitoria (9843590), Saída Amanda (9515816), Maiô Amanda (9515814) e Conjunto Olivia (10627343).
+- **Fotos:** as 16 miniaturas de cartão correspondem, pelos nomes de arquivo, às fotos de produto da origem. As galerias têm 99 referências a fotos e 96 arquivos novos únicos: três fotos idênticas compartilhadas entre Saída Amanda e Conjunto Olivia reutilizam o mesmo arquivo. Sete amostras de cor idênticas às já existentes também foram reutilizadas, sem criar cópias. Todos os caminhos citados pelo catálogo existem localmente; nenhum erro novo foi registrado em `media-recovery-errors.json`.
+- **Variações obtidas na origem:** 37 combinações disponíveis de cor e tamanho, com IDs de variante e amostras de cor. Trio Vanessa: 2 cores, M/G; Maiô Sheila: 4 cores, M/G; Conjunto Kassia: 2 cores, M/G; Saída Angelica: 2 cores, M/G; Vestido Vitoria: 3 cores, M/G; Saída Amanda: 2 cores, M/G; Maiô Amanda: 2 cores, M/G; Conjunto Olivia: 3 cores, M. Não foram criadas combinações indisponíveis ou não informadas.
+- **Preços iniciais da importação:** os valores publicados no ZIP e confirmados na origem foram substituídos em 29/10/2026, a pedido da loja.
+- **Preços atuais definidos pela loja:** Trio Vanessa R$ 34,99; Maiô Sheila R$ 29,99; Conjunto Kassia R$ 35,99; Saída Angelica R$ 29,99; Vestido Vitoria R$ 35,99; Saída Amanda R$ 34,99; Maiô Amanda R$ 29,99; Conjunto Olivia R$ 35,99. Todos estão na faixa solicitada, de R$ 24,99 a R$ 35,99. Os valores fixos são usados na vitrine, no detalhe, no carrinho e no WhatsApp.
+- **Resultado:** catálogo atualizado de 33 para 41 produtos e de 603 para 640 variantes. Os metadados completos estão em `product-media-manifest.json`; a vitrine usa `catalog-data.js` e `catalog-media.js`.
+
 ## Tipografia e título do pedido — 27/10/2026
 
 - O título do painel da sacola foi alterado para “Seu pedido” e o texto auxiliar para “Confira sua seleção”.

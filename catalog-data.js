@@ -457,6 +457,102 @@ window.CATALOG_PRODUCTS = [
         "localSizes":  [
                            "P"
                        ]
+    },
+    {
+        "id":  "trio-vanessa",
+        "name":  "Trio Vanessa",
+        "path":  "moda-casual/conjunto/trio-vanessa",
+        "category":  "conjunto",
+        "family":  "moda-casual",
+        "images":  [
+                       "images/products/9999120/trio_vanessa_3_20261023093907_e471eb591cb7.jpg",
+                       "images/products/9999120/trio_vanessa_4_20261023093907_6a47e5162cf3.jpg"
+                   ],
+        "price":  ""
+    },
+    {
+        "id":  "maio-sheila",
+        "name":  "Maiô Sheila",
+        "path":  "moda-praia/maio/maio-sheila",
+        "category":  "maio",
+        "family":  "moda-praia",
+        "images":  [
+                       "images/products/9999103/5-l2dlv.jpg",
+                       "images/products/9999103/3-qt5ya.jpg"
+                   ],
+        "price":  ""
+    },
+    {
+        "id":  "conjunto-kassia",
+        "name":  "Conjunto Kassia",
+        "path":  "moda-casual/conjunto/conjunto-kassia",
+        "category":  "conjunto",
+        "family":  "moda-casual",
+        "images":  [
+                       "images/products/9977279/conjunto_kassia_11_20261023092753_ec56888d95e5.jpg",
+                       "images/products/9977279/conjunto_kassia_12_20261023092753_3069d5908a4e.jpg"
+                   ],
+        "price":  ""
+    },
+    {
+        "id":  "saida-angelica",
+        "name":  "Saída Angelica",
+        "path":  "moda-praia/saida-de-praia/saida-angelica",
+        "category":  "saida-de-praia",
+        "family":  "moda-praia",
+        "images":  [
+                       "images/products/9899353/sada_angelica_4_20261023070145_13f064d4be53.jpg",
+                       "images/products/9899353/sada_angelica_5_20261023070145_df89b5f4758a.jpg"
+                   ],
+        "price":  ""
+    },
+    {
+        "id":  "vestido-vitoria",
+        "name":  "Vestido Vitoria",
+        "path":  "moda-casual/vestido-vitoria",
+        "category":  "vestido",
+        "family":  "moda-casual",
+        "images":  [
+                       "images/products/9843590/vestido_vitoria_1_20261023102251_3f64c4228813.jpg",
+                       "images/products/9843590/vestido_vitoria_2_20261023102251_1575815f3401.jpg"
+                   ],
+        "price":  ""
+    },
+    {
+        "id":  "saida-amanda",
+        "name":  "Saída Amanda",
+        "path":  "moda-praia/saida-de-praia/saida-amanda",
+        "category":  "saida-de-praia",
+        "family":  "moda-praia",
+        "images":  [
+                       "images/products/9515816/sada_amanda_1_20261023104630_99d41f62835e.jpg",
+                       "images/products/9515816/sada_amanda_2_20261023104630_85634b1f6d09.jpg"
+                   ],
+        "price":  ""
+    },
+    {
+        "id":  "maio-amanda",
+        "name":  "Maiô Amanda",
+        "path":  "moda-praia/maio/maio-amanda",
+        "category":  "maio",
+        "family":  "moda-praia",
+        "images":  [
+                       "images/products/9515814/mai_amanda_1_20261023110236_bb7e9ac5b390.jpg",
+                       "images/products/9515814/mai_amanda_2_20261023110236_5d20a6964584.jpg"
+                   ],
+        "price":  ""
+    },
+    {
+        "id":  "conjunto-olivia",
+        "name":  "Conjunto Olivia",
+        "path":  "moda-casual/conjunto/conjunto-olivia",
+        "category":  "conjunto",
+        "family":  "moda-casual",
+        "images":  [
+                       "images/products/10627343/conjunto_olivia_1_20261023064815_a0ce6e3df8b7.jpg",
+                       "images/products/10627343/conjunto_olivia_2_20261023064815_43e5dd44a051.jpg"
+                   ],
+        "price":  ""
     }
 ];
 
@@ -493,5 +589,13 @@ window.CATALOG_FIXED_PRICES = {
     "body-antonia": 22.38,
     "body-gola-manga-longa": 29.16,
     "body-paola": 26.74,
-    "body-maju": 21.85
+    "body-maju": 21.85,
+    "trio-vanessa":  34.99,
+    "maio-sheila":  29.99,
+    "conjunto-kassia":  35.99,
+    "saida-angelica":  29.99,
+    "vestido-vitoria":  35.99,
+    "saida-amanda":  34.99,
+    "maio-amanda":  29.99,
+    "conjunto-olivia":  35.99
 };

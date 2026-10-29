@@ -16510,5 +16510,1009 @@ window.CATALOG_MEDIA = [
                              "swatch":  "images/products/10627339/swatches/cor_F76BB1_1790795105.png"
                          }
                      ]
+    },
+    {
+        "id":  "trio-vanessa",
+        "platformId":  "9999120",
+        "images":  [
+                       "images/products/9999120/trio_vanessa_3_20261023093907_e471eb591cb7.jpg",
+                       "images/products/9999120/trio_vanessa_4_20261023093907_6a47e5162cf3.jpg",
+                       "images/products/9999120/trio_vanessa_5_20261023093907_d269b81d994b.jpg",
+                       "images/products/9999120/trio_vanessa_6_20261023093907_78808783dda8.jpg",
+                       "images/products/9999120/trio_vanessa_7_20261023093907_f1036a022377.jpg",
+                       "images/products/9999120/trio_vanessa_8_20261023093907_053cf2b54c39.jpg",
+                       "images/products/9999120/trio_vanessa_9_20261023093907_fe59581ed48c.jpg",
+                       "images/products/9999120/trio_vanessa_8_20261023101105_e903cd88930c.jpg",
+                       "images/products/9999120/trio_vanessa_9_20261023101105_fc42da3426e0.jpg",
+                       "images/products/9999120/trio_vanessa_10_20261023101105_3c96806884c2.jpg",
+                       "images/products/9999120/trio_vanessa_11_20261023101105_2c0519f15ffd.jpg",
+                       "images/products/9999120/trio_vanessa_12_20261023101105_c568c5cb473c.jpg"
+                   ],
+        "colors":  [
+                       "Preto",
+                       "Nude Médio"
+                   ],
+        "sizes":  [
+                      "M",
+                      "G"
+                  ],
+        "colorSpecificGalleries":  true,
+        "colorImages":  [
+                            {
+                                "color":  "Preto",
+                                "images":  [
+                                               "images/products/9999120/trio_vanessa_3_20261023093907_e471eb591cb7.jpg",
+                                               "images/products/9999120/trio_vanessa_4_20261023093907_6a47e5162cf3.jpg",
+                                               "images/products/9999120/trio_vanessa_5_20261023093907_d269b81d994b.jpg",
+                                               "images/products/9999120/trio_vanessa_6_20261023093907_78808783dda8.jpg",
+                                               "images/products/9999120/trio_vanessa_7_20261023093907_f1036a022377.jpg",
+                                               "images/products/9999120/trio_vanessa_8_20261023093907_053cf2b54c39.jpg",
+                                               "images/products/9999120/trio_vanessa_9_20261023093907_fe59581ed48c.jpg"
+                                           ]
+                            },
+                            {
+                                "color":  "Nude Médio",
+                                "images":  [
+                                               "images/products/9999120/trio_vanessa_10_20261023101105_3c96806884c2.jpg",
+                                               "images/products/9999120/trio_vanessa_11_20261023101105_2c0519f15ffd.jpg",
+                                               "images/products/9999120/trio_vanessa_12_20261023101105_c568c5cb473c.jpg",
+                                               "images/products/9999120/trio_vanessa_8_20261023101105_e903cd88930c.jpg",
+                                               "images/products/9999120/trio_vanessa_9_20261023101105_fc42da3426e0.jpg"
+                                           ]
+                            }
+                        ],
+        "variants":  [
+                         {
+                             "id":  "29075565",
+                             "color":  "Preto",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9999120/trio_vanessa_3_20261023093907_e471eb591cb7.jpg",
+                                            "images/products/9999120/trio_vanessa_4_20261023093907_6a47e5162cf3.jpg",
+                                            "images/products/9999120/trio_vanessa_5_20261023093907_d269b81d994b.jpg",
+                                            "images/products/9999120/trio_vanessa_6_20261023093907_78808783dda8.jpg",
+                                            "images/products/9999120/trio_vanessa_7_20261023093907_f1036a022377.jpg",
+                                            "images/products/9999120/trio_vanessa_8_20261023093907_053cf2b54c39.jpg",
+                                            "images/products/9999120/trio_vanessa_9_20261023093907_fe59581ed48c.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29075570",
+                             "color":  "Preto",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9999120/trio_vanessa_3_20261023093907_e471eb591cb7.jpg",
+                                            "images/products/9999120/trio_vanessa_4_20261023093907_6a47e5162cf3.jpg",
+                                            "images/products/9999120/trio_vanessa_5_20261023093907_d269b81d994b.jpg",
+                                            "images/products/9999120/trio_vanessa_6_20261023093907_78808783dda8.jpg",
+                                            "images/products/9999120/trio_vanessa_7_20261023093907_f1036a022377.jpg",
+                                            "images/products/9999120/trio_vanessa_8_20261023093907_053cf2b54c39.jpg",
+                                            "images/products/9999120/trio_vanessa_9_20261023093907_fe59581ed48c.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29075571",
+                             "color":  "Nude Médio",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/6076210/swatches/cor_C5BBA4_1790795095.png",
+                             "images":  [
+                                            "images/products/9999120/trio_vanessa_8_20261023101105_e903cd88930c.jpg",
+                                            "images/products/9999120/trio_vanessa_9_20261023101105_fc42da3426e0.jpg",
+                                            "images/products/9999120/trio_vanessa_10_20261023101105_3c96806884c2.jpg",
+                                            "images/products/9999120/trio_vanessa_11_20261023101105_2c0519f15ffd.jpg",
+                                            "images/products/9999120/trio_vanessa_12_20261023101105_c568c5cb473c.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29075573",
+                             "color":  "Nude Médio",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/6076210/swatches/cor_C5BBA4_1790795095.png",
+                             "images":  [
+                                            "images/products/9999120/trio_vanessa_8_20261023101105_e903cd88930c.jpg",
+                                            "images/products/9999120/trio_vanessa_9_20261023101105_fc42da3426e0.jpg",
+                                            "images/products/9999120/trio_vanessa_10_20261023101105_3c96806884c2.jpg",
+                                            "images/products/9999120/trio_vanessa_11_20261023101105_2c0519f15ffd.jpg",
+                                            "images/products/9999120/trio_vanessa_12_20261023101105_c568c5cb473c.jpg"
+                                        ]
+                         }
+                     ]
+    },
+    {
+        "id":  "maio-sheila",
+        "platformId":  "9999103",
+        "images":  [
+                       "images/products/9999103/5-l2dlv.jpg",
+                       "images/products/9999103/3-qt5ya.jpg",
+                       "images/products/9999103/2-ca8sc.jpg",
+                       "images/products/9999103/6-afpuk.jpg",
+                       "images/products/9999103/4-umwtl.jpg",
+                       "images/products/9999103/19-4bokv.jpg",
+                       "images/products/9999103/18-hghtp.jpg",
+                       "images/products/9999103/17-pnvss.jpg",
+                       "images/products/9999103/20-uqcjo.jpg",
+                       "images/products/9999103/mai_sheila_32_20261023065338_22491d1c7bd8.jpg",
+                       "images/products/9999103/mai_sheila_33_20261023065338_fea21d1f39c2.jpg",
+                       "images/products/9999103/mai_sheila_34_20261023065338_bcb3c49f6311.jpg",
+                       "images/products/9999103/mai_sheila_35_20261023065338_c29946555c8e.jpg"
+                   ],
+        "colors":  [
+                       "Branco",
+                       "Preto",
+                       "Amarelo",
+                       "Azul"
+                   ],
+        "sizes":  [
+                      "M",
+                      "G"
+                  ],
+        "colorSpecificGalleries":  true,
+        "colorImages":  [
+                            {
+                                "color":  "Branco",
+                                "images":  [
+                                               "images/products/9999103/mai_sheila_34_20261023065338_bcb3c49f6311.jpg",
+                                               "images/products/9999103/mai_sheila_35_20261023065338_c29946555c8e.jpg"
+                                           ]
+                            },
+                            {
+                                "color":  "Preto",
+                                "images":  [
+                                               "images/products/9999103/mai_sheila_32_20261023065338_22491d1c7bd8.jpg",
+                                               "images/products/9999103/mai_sheila_33_20261023065338_fea21d1f39c2.jpg"
+                                           ]
+                            },
+                            {
+                                "color":  "Amarelo",
+                                "images":  [
+                                               "images/products/9999103/17-pnvss.jpg",
+                                               "images/products/9999103/18-hghtp.jpg",
+                                               "images/products/9999103/19-4bokv.jpg",
+                                               "images/products/9999103/20-uqcjo.jpg"
+                                           ]
+                            },
+                            {
+                                "color":  "Azul",
+                                "images":  [
+                                               "images/products/9999103/2-ca8sc.jpg",
+                                               "images/products/9999103/3-qt5ya.jpg",
+                                               "images/products/9999103/4-umwtl.jpg",
+                                               "images/products/9999103/5-l2dlv.jpg",
+                                               "images/products/9999103/6-afpuk.jpg"
+                                           ]
+                            }
+                        ],
+        "variants":  [
+                         {
+                             "id":  "29075410",
+                             "color":  "Branco",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9999103/mai_sheila_34_20261023065338_bcb3c49f6311.jpg",
+                                            "images/products/9999103/mai_sheila_35_20261023065338_c29946555c8e.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29075412",
+                             "color":  "Branco",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9999103/mai_sheila_34_20261023065338_bcb3c49f6311.jpg",
+                                            "images/products/9999103/mai_sheila_35_20261023065338_c29946555c8e.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29075414",
+                             "color":  "Preto",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9999103/mai_sheila_32_20261023065338_22491d1c7bd8.jpg",
+                                            "images/products/9999103/mai_sheila_33_20261023065338_fea21d1f39c2.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29075415",
+                             "color":  "Preto",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9999103/mai_sheila_32_20261023065338_22491d1c7bd8.jpg",
+                                            "images/products/9999103/mai_sheila_33_20261023065338_fea21d1f39c2.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29075416",
+                             "color":  "Amarelo",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/10627341/swatches/cor_foto-bagy-1-1_1790795180.jpg",
+                             "images":  [
+                                            "images/products/9999103/19-4bokv.jpg",
+                                            "images/products/9999103/18-hghtp.jpg",
+                                            "images/products/9999103/17-pnvss.jpg",
+                                            "images/products/9999103/20-uqcjo.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29075418",
+                             "color":  "Amarelo",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/10627341/swatches/cor_foto-bagy-1-1_1790795180.jpg",
+                             "images":  [
+                                            "images/products/9999103/19-4bokv.jpg",
+                                            "images/products/9999103/18-hghtp.jpg",
+                                            "images/products/9999103/17-pnvss.jpg",
+                                            "images/products/9999103/20-uqcjo.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29075420",
+                             "color":  "Azul",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/8181479/swatches/cor_33B5CD_1790795224.png",
+                             "images":  [
+                                            "images/products/9999103/5-l2dlv.jpg",
+                                            "images/products/9999103/3-qt5ya.jpg",
+                                            "images/products/9999103/2-ca8sc.jpg",
+                                            "images/products/9999103/6-afpuk.jpg",
+                                            "images/products/9999103/4-umwtl.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29075422",
+                             "color":  "Azul",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/8181479/swatches/cor_33B5CD_1790795224.png",
+                             "images":  [
+                                            "images/products/9999103/5-l2dlv.jpg",
+                                            "images/products/9999103/3-qt5ya.jpg",
+                                            "images/products/9999103/2-ca8sc.jpg",
+                                            "images/products/9999103/6-afpuk.jpg",
+                                            "images/products/9999103/4-umwtl.jpg"
+                                        ]
+                         }
+                     ]
+    },
+    {
+        "id":  "conjunto-kassia",
+        "platformId":  "9977279",
+        "images":  [
+                       "images/products/9977279/conjunto_kassia_11_20261023092753_ec56888d95e5.jpg",
+                       "images/products/9977279/conjunto_kassia_12_20261023092753_3069d5908a4e.jpg",
+                       "images/products/9977279/conjunto_kassia_13_20261023092753_bbff4a3748e7.jpg",
+                       "images/products/9977279/conjunto_kassia_14_20261023092753_3cf2fdb20d31.jpg",
+                       "images/products/9977279/conjunto_kassia_15_20261023092753_64bf1262a3ec.jpg",
+                       "images/products/9977279/conjunto_kassia_16_20261023092753_97e081f2c47c.jpg",
+                       "images/products/9977279/conjunto_kassia_17_20261023092753_be807ba9f6f7.jpg",
+                       "images/products/9977279/conjunto_kassia_18_20261023092753_eb67396550da.jpg",
+                       "images/products/9977279/conjunto_kassia_19_20261023092753_e4c44bc8e9b3.jpg",
+                       "images/products/9977279/conjunto_kassia_20_20261023092753_240eec5f191c.jpg",
+                       "images/products/9977279/conjunto_kassia_21_20261023092753_e8bd293ac3e3.jpg",
+                       "images/products/9977279/conjunto_kassia_22_20261023092753_7744941174a5.jpg"
+                   ],
+        "colors":  [
+                       "Preto",
+                       "Branco"
+                   ],
+        "sizes":  [
+                      "M",
+                      "G"
+                  ],
+        "colorSpecificGalleries":  true,
+        "colorImages":  [
+                            {
+                                "color":  "Preto",
+                                "images":  [
+                                               "images/products/9977279/conjunto_kassia_11_20261023092753_ec56888d95e5.jpg",
+                                               "images/products/9977279/conjunto_kassia_12_20261023092753_3069d5908a4e.jpg",
+                                               "images/products/9977279/conjunto_kassia_13_20261023092753_bbff4a3748e7.jpg",
+                                               "images/products/9977279/conjunto_kassia_14_20261023092753_3cf2fdb20d31.jpg",
+                                               "images/products/9977279/conjunto_kassia_15_20261023092753_64bf1262a3ec.jpg",
+                                               "images/products/9977279/conjunto_kassia_16_20261023092753_97e081f2c47c.jpg",
+                                               "images/products/9977279/conjunto_kassia_17_20261023092753_be807ba9f6f7.jpg"
+                                           ]
+                            },
+                            {
+                                "color":  "Branco",
+                                "images":  [
+                                               "images/products/9977279/conjunto_kassia_18_20261023092753_eb67396550da.jpg",
+                                               "images/products/9977279/conjunto_kassia_19_20261023092753_e4c44bc8e9b3.jpg",
+                                               "images/products/9977279/conjunto_kassia_20_20261023092753_240eec5f191c.jpg",
+                                               "images/products/9977279/conjunto_kassia_21_20261023092753_e8bd293ac3e3.jpg",
+                                               "images/products/9977279/conjunto_kassia_22_20261023092753_7744941174a5.jpg"
+                                           ]
+                            }
+                        ],
+        "variants":  [
+                         {
+                             "id":  "29013239",
+                             "color":  "Preto",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9977279/conjunto_kassia_11_20261023092753_ec56888d95e5.jpg",
+                                            "images/products/9977279/conjunto_kassia_12_20261023092753_3069d5908a4e.jpg",
+                                            "images/products/9977279/conjunto_kassia_13_20261023092753_bbff4a3748e7.jpg",
+                                            "images/products/9977279/conjunto_kassia_14_20261023092753_3cf2fdb20d31.jpg",
+                                            "images/products/9977279/conjunto_kassia_15_20261023092753_64bf1262a3ec.jpg",
+                                            "images/products/9977279/conjunto_kassia_16_20261023092753_97e081f2c47c.jpg",
+                                            "images/products/9977279/conjunto_kassia_17_20261023092753_be807ba9f6f7.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29013240",
+                             "color":  "Preto",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9977279/conjunto_kassia_11_20261023092753_ec56888d95e5.jpg",
+                                            "images/products/9977279/conjunto_kassia_12_20261023092753_3069d5908a4e.jpg",
+                                            "images/products/9977279/conjunto_kassia_13_20261023092753_bbff4a3748e7.jpg",
+                                            "images/products/9977279/conjunto_kassia_14_20261023092753_3cf2fdb20d31.jpg",
+                                            "images/products/9977279/conjunto_kassia_15_20261023092753_64bf1262a3ec.jpg",
+                                            "images/products/9977279/conjunto_kassia_16_20261023092753_97e081f2c47c.jpg",
+                                            "images/products/9977279/conjunto_kassia_17_20261023092753_be807ba9f6f7.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29013241",
+                             "color":  "Branco",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9977279/conjunto_kassia_18_20261023092753_eb67396550da.jpg",
+                                            "images/products/9977279/conjunto_kassia_19_20261023092753_e4c44bc8e9b3.jpg",
+                                            "images/products/9977279/conjunto_kassia_20_20261023092753_240eec5f191c.jpg",
+                                            "images/products/9977279/conjunto_kassia_21_20261023092753_e8bd293ac3e3.jpg",
+                                            "images/products/9977279/conjunto_kassia_22_20261023092753_7744941174a5.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "29013242",
+                             "color":  "Branco",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9977279/conjunto_kassia_18_20261023092753_eb67396550da.jpg",
+                                            "images/products/9977279/conjunto_kassia_19_20261023092753_e4c44bc8e9b3.jpg",
+                                            "images/products/9977279/conjunto_kassia_20_20261023092753_240eec5f191c.jpg",
+                                            "images/products/9977279/conjunto_kassia_21_20261023092753_e8bd293ac3e3.jpg",
+                                            "images/products/9977279/conjunto_kassia_22_20261023092753_7744941174a5.jpg"
+                                        ]
+                         }
+                     ]
+    },
+    {
+        "id":  "saida-angelica",
+        "platformId":  "9899353",
+        "images":  [
+                       "images/products/9899353/sada_angelica_4_20261023070145_13f064d4be53.jpg",
+                       "images/products/9899353/sada_angelica_5_20261023070145_df89b5f4758a.jpg",
+                       "images/products/9899353/sada_angelica_1_20261023070145_f86d78076c3c.jpg",
+                       "images/products/9899353/sada_angelica_2_20261023070145_77f15525874e.jpg",
+                       "images/products/9899353/sada_angelica_3_20261023070145_74cec868b588.jpg",
+                       "images/products/9899353/sada_angelica_6_20261023070145_12ed05abc331.jpg",
+                       "images/products/9899353/sada_angelica_7_20261023070145_402577406038.jpg",
+                       "images/products/9899353/sada_angelica_8_20261023070145_054912f72f5f.jpg"
+                   ],
+        "colors":  [
+                       "Branco",
+                       "Preto"
+                   ],
+        "sizes":  [
+                      "M",
+                      "G"
+                  ],
+        "colorSpecificGalleries":  true,
+        "colorImages":  [
+                            {
+                                "color":  "Branco",
+                                "images":  [
+                                               "images/products/9899353/sada_angelica_1_20261023070145_f86d78076c3c.jpg",
+                                               "images/products/9899353/sada_angelica_2_20261023070145_77f15525874e.jpg",
+                                               "images/products/9899353/sada_angelica_3_20261023070145_74cec868b588.jpg",
+                                               "images/products/9899353/sada_angelica_4_20261023070145_13f064d4be53.jpg",
+                                               "images/products/9899353/sada_angelica_5_20261023070145_df89b5f4758a.jpg"
+                                           ]
+                            },
+                            {
+                                "color":  "Preto",
+                                "images":  [
+                                               "images/products/9899353/sada_angelica_6_20261023070145_12ed05abc331.jpg",
+                                               "images/products/9899353/sada_angelica_7_20261023070145_402577406038.jpg",
+                                               "images/products/9899353/sada_angelica_8_20261023070145_054912f72f5f.jpg"
+                                           ]
+                            }
+                        ],
+        "variants":  [
+                         {
+                             "id":  "28778346",
+                             "color":  "Branco",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9899353/sada_angelica_1_20261023070145_f86d78076c3c.jpg",
+                                            "images/products/9899353/sada_angelica_2_20261023070145_77f15525874e.jpg",
+                                            "images/products/9899353/sada_angelica_3_20261023070145_74cec868b588.jpg",
+                                            "images/products/9899353/sada_angelica_4_20261023070145_13f064d4be53.jpg",
+                                            "images/products/9899353/sada_angelica_5_20261023070145_df89b5f4758a.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "28778347",
+                             "color":  "Branco",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9899353/sada_angelica_1_20261023070145_f86d78076c3c.jpg",
+                                            "images/products/9899353/sada_angelica_2_20261023070145_77f15525874e.jpg",
+                                            "images/products/9899353/sada_angelica_3_20261023070145_74cec868b588.jpg",
+                                            "images/products/9899353/sada_angelica_4_20261023070145_13f064d4be53.jpg",
+                                            "images/products/9899353/sada_angelica_5_20261023070145_df89b5f4758a.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "28778348",
+                             "color":  "Preto",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9899353/sada_angelica_6_20261023070145_12ed05abc331.jpg",
+                                            "images/products/9899353/sada_angelica_7_20261023070145_402577406038.jpg",
+                                            "images/products/9899353/sada_angelica_8_20261023070145_054912f72f5f.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "28778349",
+                             "color":  "Preto",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9899353/sada_angelica_6_20261023070145_12ed05abc331.jpg",
+                                            "images/products/9899353/sada_angelica_7_20261023070145_402577406038.jpg",
+                                            "images/products/9899353/sada_angelica_8_20261023070145_054912f72f5f.jpg"
+                                        ]
+                         }
+                     ]
+    },
+    {
+        "id":  "vestido-vitoria",
+        "platformId":  "9843590",
+        "images":  [
+                       "images/products/9843590/vestido_vitoria_1_20261023102251_3f64c4228813.jpg",
+                       "images/products/9843590/vestido_vitoria_2_20261023102251_1575815f3401.jpg",
+                       "images/products/9843590/vestido_vitoria_3_20261023102251_d0a139b39680.jpg",
+                       "images/products/9843590/vestido_vitoria_4_20261023102251_ba51c09c23be.jpg",
+                       "images/products/9843590/vestido_vitoria_5_20261023102251_7a4092599cb4.jpg",
+                       "images/products/9843590/vestido_vitoria_6_20261023102251_ff2e3f463817.jpg",
+                       "images/products/9843590/vestido_vitoria_7_20261023102251_0b2047d4f5d5.jpg",
+                       "images/products/9843590/vestido_vitoria_8_20261023102251_ba79dae8f976.jpg",
+                       "images/products/9843590/vestido_vitoria_9_20261023102251_0a7d4fd0257e.jpg",
+                       "images/products/9843590/vestido_vitoria_10_20261023102251_64e385d321de.jpg",
+                       "images/products/9843590/vestido_vitoria_11_20261023102251_eb427a4e457f.jpg",
+                       "images/products/9843590/vestido_vitoria_12_20261023102251_bc7063c547b3.jpg",
+                       "images/products/9843590/vestido_vitoria_13_20261023102251_4a91db972c4d.jpg",
+                       "images/products/9843590/vestido_vitoria_14_20261023102251_755c517f6a7e.jpg",
+                       "images/products/9843590/vestido_vitoria_15_20261023102251_43ec9fa61fef.jpg",
+                       "images/products/9843590/vestido_vitoria_16_20261023102251_6608ef6608f8.jpg",
+                       "images/products/9843590/vestido_vitoria_17_20261023102251_49e0086e7906.jpg",
+                       "images/products/9843590/vestido_vitoria_18_20261023102251_f78ac13a3ac5.jpg"
+                   ],
+        "colors":  [
+                       "Preto",
+                       "Branco",
+                       "Vermelho"
+                   ],
+        "sizes":  [
+                      "M",
+                      "G"
+                  ],
+        "colorSpecificGalleries":  true,
+        "colorImages":  [
+                            {
+                                "color":  "Preto",
+                                "images":  [
+                                               "images/products/9843590/vestido_vitoria_13_20261023102251_4a91db972c4d.jpg",
+                                               "images/products/9843590/vestido_vitoria_14_20261023102251_755c517f6a7e.jpg",
+                                               "images/products/9843590/vestido_vitoria_15_20261023102251_43ec9fa61fef.jpg",
+                                               "images/products/9843590/vestido_vitoria_16_20261023102251_6608ef6608f8.jpg",
+                                               "images/products/9843590/vestido_vitoria_17_20261023102251_49e0086e7906.jpg",
+                                               "images/products/9843590/vestido_vitoria_18_20261023102251_f78ac13a3ac5.jpg"
+                                           ]
+                            },
+                            {
+                                "color":  "Branco",
+                                "images":  [
+                                               "images/products/9843590/vestido_vitoria_10_20261023102251_64e385d321de.jpg",
+                                               "images/products/9843590/vestido_vitoria_11_20261023102251_eb427a4e457f.jpg",
+                                               "images/products/9843590/vestido_vitoria_12_20261023102251_bc7063c547b3.jpg",
+                                               "images/products/9843590/vestido_vitoria_7_20261023102251_0b2047d4f5d5.jpg",
+                                               "images/products/9843590/vestido_vitoria_8_20261023102251_ba79dae8f976.jpg",
+                                               "images/products/9843590/vestido_vitoria_9_20261023102251_0a7d4fd0257e.jpg"
+                                           ]
+                            },
+                            {
+                                "color":  "Vermelho",
+                                "images":  [
+                                               "images/products/9843590/vestido_vitoria_1_20261023102251_3f64c4228813.jpg",
+                                               "images/products/9843590/vestido_vitoria_2_20261023102251_1575815f3401.jpg",
+                                               "images/products/9843590/vestido_vitoria_3_20261023102251_d0a139b39680.jpg",
+                                               "images/products/9843590/vestido_vitoria_4_20261023102251_ba51c09c23be.jpg",
+                                               "images/products/9843590/vestido_vitoria_5_20261023102251_7a4092599cb4.jpg",
+                                               "images/products/9843590/vestido_vitoria_6_20261023102251_ff2e3f463817.jpg"
+                                           ]
+                            }
+                        ],
+        "variants":  [
+                         {
+                             "id":  "28621564",
+                             "color":  "Preto",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9843590/vestido_vitoria_13_20261023102251_4a91db972c4d.jpg",
+                                            "images/products/9843590/vestido_vitoria_14_20261023102251_755c517f6a7e.jpg",
+                                            "images/products/9843590/vestido_vitoria_15_20261023102251_43ec9fa61fef.jpg",
+                                            "images/products/9843590/vestido_vitoria_16_20261023102251_6608ef6608f8.jpg",
+                                            "images/products/9843590/vestido_vitoria_17_20261023102251_49e0086e7906.jpg",
+                                            "images/products/9843590/vestido_vitoria_18_20261023102251_f78ac13a3ac5.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "28621565",
+                             "color":  "Branco",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9843590/vestido_vitoria_7_20261023102251_0b2047d4f5d5.jpg",
+                                            "images/products/9843590/vestido_vitoria_8_20261023102251_ba79dae8f976.jpg",
+                                            "images/products/9843590/vestido_vitoria_9_20261023102251_0a7d4fd0257e.jpg",
+                                            "images/products/9843590/vestido_vitoria_10_20261023102251_64e385d321de.jpg",
+                                            "images/products/9843590/vestido_vitoria_11_20261023102251_eb427a4e457f.jpg",
+                                            "images/products/9843590/vestido_vitoria_12_20261023102251_bc7063c547b3.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "28621566",
+                             "color":  "Vermelho",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/10627341/swatches/cor_FF102E_1790795020.png",
+                             "images":  [
+                                            "images/products/9843590/vestido_vitoria_1_20261023102251_3f64c4228813.jpg",
+                                            "images/products/9843590/vestido_vitoria_2_20261023102251_1575815f3401.jpg",
+                                            "images/products/9843590/vestido_vitoria_3_20261023102251_d0a139b39680.jpg",
+                                            "images/products/9843590/vestido_vitoria_4_20261023102251_ba51c09c23be.jpg",
+                                            "images/products/9843590/vestido_vitoria_5_20261023102251_7a4092599cb4.jpg",
+                                            "images/products/9843590/vestido_vitoria_6_20261023102251_ff2e3f463817.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "28621567",
+                             "color":  "Preto",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9843590/vestido_vitoria_13_20261023102251_4a91db972c4d.jpg",
+                                            "images/products/9843590/vestido_vitoria_14_20261023102251_755c517f6a7e.jpg",
+                                            "images/products/9843590/vestido_vitoria_15_20261023102251_43ec9fa61fef.jpg",
+                                            "images/products/9843590/vestido_vitoria_16_20261023102251_6608ef6608f8.jpg",
+                                            "images/products/9843590/vestido_vitoria_17_20261023102251_49e0086e7906.jpg",
+                                            "images/products/9843590/vestido_vitoria_18_20261023102251_f78ac13a3ac5.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "28621568",
+                             "color":  "Branco",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9843590/vestido_vitoria_7_20261023102251_0b2047d4f5d5.jpg",
+                                            "images/products/9843590/vestido_vitoria_8_20261023102251_ba79dae8f976.jpg",
+                                            "images/products/9843590/vestido_vitoria_9_20261023102251_0a7d4fd0257e.jpg",
+                                            "images/products/9843590/vestido_vitoria_10_20261023102251_64e385d321de.jpg",
+                                            "images/products/9843590/vestido_vitoria_11_20261023102251_eb427a4e457f.jpg",
+                                            "images/products/9843590/vestido_vitoria_12_20261023102251_bc7063c547b3.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "28621569",
+                             "color":  "Vermelho",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/10627341/swatches/cor_FF102E_1790795020.png",
+                             "images":  [
+                                            "images/products/9843590/vestido_vitoria_1_20261023102251_3f64c4228813.jpg",
+                                            "images/products/9843590/vestido_vitoria_2_20261023102251_1575815f3401.jpg",
+                                            "images/products/9843590/vestido_vitoria_3_20261023102251_d0a139b39680.jpg",
+                                            "images/products/9843590/vestido_vitoria_4_20261023102251_ba51c09c23be.jpg",
+                                            "images/products/9843590/vestido_vitoria_5_20261023102251_7a4092599cb4.jpg",
+                                            "images/products/9843590/vestido_vitoria_6_20261023102251_ff2e3f463817.jpg"
+                                        ]
+                         }
+                     ]
+    },
+    {
+        "id":  "saida-amanda",
+        "platformId":  "9515816",
+        "images":  [
+                       "images/products/9515816/sada_amanda_1_20261023104630_99d41f62835e.jpg",
+                       "images/products/9515816/sada_amanda_2_20261023104630_85634b1f6d09.jpg",
+                       "images/products/9515816/sada_amanda_3_20261023104630_435454fd2808.jpg",
+                       "images/products/9515816/sada_amanda_4_20261023104630_c2460fea0dc2.jpg",
+                       "images/products/9515816/sada_amanda_5_20261023104630_2f6d93282344.jpg",
+                       "images/products/9515816/sada_amanda_6_20261023104630_48712f365046.jpg",
+                       "images/products/9515816/sada_amanda_7_20261023104630_579df25080be.jpg",
+                       "images/products/9515816/sada_amanda_8_20261023104630_de6baa79ed06.jpg",
+                       "images/products/9515816/sada_amanda_9_20261023104630_e9fcca42433c.jpg",
+                       "images/products/9515816/sada_amanda_10_20261023104630_bffb089cb216.jpg",
+                       "images/products/9515816/sada_amanda_11_20261023104630_a24afd404813.jpg",
+                       "images/products/9515816/sada_amanda_12_20261023104630_dc49c9e3b3f4.jpg"
+                   ],
+        "colors":  [
+                       "Preto",
+                       "Branco"
+                   ],
+        "sizes":  [
+                      "M",
+                      "G"
+                  ],
+        "colorSpecificGalleries":  true,
+        "colorImages":  [
+                            {
+                                "color":  "Preto",
+                                "images":  [
+                                               "images/products/9515816/sada_amanda_1_20261023104630_99d41f62835e.jpg",
+                                               "images/products/9515816/sada_amanda_2_20261023104630_85634b1f6d09.jpg",
+                                               "images/products/9515816/sada_amanda_3_20261023104630_435454fd2808.jpg",
+                                               "images/products/9515816/sada_amanda_4_20261023104630_c2460fea0dc2.jpg",
+                                               "images/products/9515816/sada_amanda_5_20261023104630_2f6d93282344.jpg",
+                                               "images/products/9515816/sada_amanda_6_20261023104630_48712f365046.jpg"
+                                           ]
+                            },
+                            {
+                                "color":  "Branco",
+                                "images":  [
+                                               "images/products/9515816/sada_amanda_10_20261023104630_bffb089cb216.jpg",
+                                               "images/products/9515816/sada_amanda_11_20261023104630_a24afd404813.jpg",
+                                               "images/products/9515816/sada_amanda_12_20261023104630_dc49c9e3b3f4.jpg",
+                                               "images/products/9515816/sada_amanda_7_20261023104630_579df25080be.jpg",
+                                               "images/products/9515816/sada_amanda_8_20261023104630_de6baa79ed06.jpg",
+                                               "images/products/9515816/sada_amanda_9_20261023104630_e9fcca42433c.jpg"
+                                           ]
+                            }
+                        ],
+        "variants":  [
+                         {
+                             "id":  "27682359",
+                             "color":  "Preto",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9515816/sada_amanda_1_20261023104630_99d41f62835e.jpg",
+                                            "images/products/9515816/sada_amanda_2_20261023104630_85634b1f6d09.jpg",
+                                            "images/products/9515816/sada_amanda_3_20261023104630_435454fd2808.jpg",
+                                            "images/products/9515816/sada_amanda_4_20261023104630_c2460fea0dc2.jpg",
+                                            "images/products/9515816/sada_amanda_5_20261023104630_2f6d93282344.jpg",
+                                            "images/products/9515816/sada_amanda_6_20261023104630_48712f365046.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "27682360",
+                             "color":  "Preto",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9515816/sada_amanda_1_20261023104630_99d41f62835e.jpg",
+                                            "images/products/9515816/sada_amanda_2_20261023104630_85634b1f6d09.jpg",
+                                            "images/products/9515816/sada_amanda_3_20261023104630_435454fd2808.jpg",
+                                            "images/products/9515816/sada_amanda_4_20261023104630_c2460fea0dc2.jpg",
+                                            "images/products/9515816/sada_amanda_5_20261023104630_2f6d93282344.jpg",
+                                            "images/products/9515816/sada_amanda_6_20261023104630_48712f365046.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "27682361",
+                             "color":  "Branco",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9515816/sada_amanda_7_20261023104630_579df25080be.jpg",
+                                            "images/products/9515816/sada_amanda_8_20261023104630_de6baa79ed06.jpg",
+                                            "images/products/9515816/sada_amanda_9_20261023104630_e9fcca42433c.jpg",
+                                            "images/products/9515816/sada_amanda_10_20261023104630_bffb089cb216.jpg",
+                                            "images/products/9515816/sada_amanda_11_20261023104630_a24afd404813.jpg",
+                                            "images/products/9515816/sada_amanda_12_20261023104630_dc49c9e3b3f4.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "27682362",
+                             "color":  "Branco",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9515816/sada_amanda_7_20261023104630_579df25080be.jpg",
+                                            "images/products/9515816/sada_amanda_8_20261023104630_de6baa79ed06.jpg",
+                                            "images/products/9515816/sada_amanda_9_20261023104630_e9fcca42433c.jpg",
+                                            "images/products/9515816/sada_amanda_10_20261023104630_bffb089cb216.jpg",
+                                            "images/products/9515816/sada_amanda_11_20261023104630_a24afd404813.jpg",
+                                            "images/products/9515816/sada_amanda_12_20261023104630_dc49c9e3b3f4.jpg"
+                                        ]
+                         }
+                     ]
+    },
+    {
+        "id":  "maio-amanda",
+        "platformId":  "9515814",
+        "images":  [
+                       "images/products/9515814/mai_amanda_1_20261023110236_bb7e9ac5b390.jpg",
+                       "images/products/9515814/mai_amanda_2_20261023110236_5d20a6964584.jpg",
+                       "images/products/9515814/mai_amanda_3_20261023110236_3653a6abb4b4.jpg",
+                       "images/products/9515814/mai_amanda_4_20261023110236_a88823a316a7.jpg"
+                   ],
+        "colors":  [
+                       "Preto",
+                       "Branco"
+                   ],
+        "sizes":  [
+                      "M",
+                      "G"
+                  ],
+        "colorSpecificGalleries":  true,
+        "colorImages":  [
+                            {
+                                "color":  "Preto",
+                                "images":  [
+                                               "images/products/9515814/mai_amanda_1_20261023110236_bb7e9ac5b390.jpg",
+                                               "images/products/9515814/mai_amanda_2_20261023110236_5d20a6964584.jpg"
+                                           ]
+                            },
+                            {
+                                "color":  "Branco",
+                                "images":  [
+                                               "images/products/9515814/mai_amanda_3_20261023110236_3653a6abb4b4.jpg",
+                                               "images/products/9515814/mai_amanda_4_20261023110236_a88823a316a7.jpg"
+                                           ]
+                            }
+                        ],
+        "variants":  [
+                         {
+                             "id":  "27682354",
+                             "color":  "Preto",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9515814/mai_amanda_1_20261023110236_bb7e9ac5b390.jpg",
+                                            "images/products/9515814/mai_amanda_2_20261023110236_5d20a6964584.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "27682355",
+                             "color":  "Preto",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/9515814/mai_amanda_1_20261023110236_bb7e9ac5b390.jpg",
+                                            "images/products/9515814/mai_amanda_2_20261023110236_5d20a6964584.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "27682356",
+                             "color":  "Branco",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9515814/mai_amanda_3_20261023110236_3653a6abb4b4.jpg",
+                                            "images/products/9515814/mai_amanda_4_20261023110236_a88823a316a7.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "27682357",
+                             "color":  "Branco",
+                             "size":  "G",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9515814/mai_amanda_3_20261023110236_3653a6abb4b4.jpg",
+                                            "images/products/9515814/mai_amanda_4_20261023110236_a88823a316a7.jpg"
+                                        ]
+                         }
+                     ]
+    },
+    {
+        "id":  "conjunto-olivia",
+        "platformId":  "10627343",
+        "images":  [
+                       "images/products/10627343/conjunto_olivia_1_20261023064815_a0ce6e3df8b7.jpg",
+                       "images/products/10627343/conjunto_olivia_2_20261023064815_43e5dd44a051.jpg",
+                       "images/products/10627343/conjunto_olivia_3_20261023064815_7fc516a3b820.jpg",
+                       "images/products/10627343/conjunto_olivia_4_20261023064815_b5b746aa86c1.jpg",
+                       "images/products/10627343/conjunto_olivia_5_20261023064815_5740eca37aaf.jpg",
+                       "images/products/10627343/conjunto_olivia_6_20261023064815_570e075cc5ab.jpg",
+                       "images/products/10627343/conjunto_olivia_7_20261023064815_bfd6c8fd4ef8.jpg",
+                       "images/products/10627343/conjunto_olivia_8_20261023064815_7357fec29940.jpg",
+                       "images/products/9515816/sada_amanda_12_20261023104630_dc49c9e3b3f4.jpg",
+                       "images/products/10627343/conjunto_olivia_10_20261023090737_83e9d7c580e4.jpg",
+                       "images/products/9515816/sada_amanda_8_20261023104630_de6baa79ed06.jpg",
+                       "images/products/10627343/conjunto_olivia_12_20261023090737_81844f060d43.jpg",
+                       "images/products/10627343/conjunto_olivia_13_20261023090737_90ed0c15e269.jpg",
+                       "images/products/9515816/sada_amanda_11_20261023104630_a24afd404813.jpg",
+                       "images/products/10627343/conjunto_olivia_15_20261023090737_2cc9b82fd4b2.jpg",
+                       "images/products/10627343/conjunto_olivia_16_20261023090737_08571109cb22.jpg",
+                       "images/products/10627343/conjunto_olivia_17_20261023090737_3a32b7670860.jpg",
+                       "images/products/10627343/conjunto_olivia_18_20261023090737_3f19e30f03e7.jpg",
+                       "images/products/10627343/conjunto_olivia_19_20261023090737_646ca6f1b2b3.jpg",
+                       "images/products/10627343/conjunto_olivia_20_20261023090737_814521f36312.jpg"
+                   ],
+        "colors":  [
+                       "Preto",
+                       "Branco",
+                       "Chocolate Escuro"
+                   ],
+        "sizes":  [
+                      "M"
+                  ],
+        "colorSpecificGalleries":  true,
+        "colorImages":  [
+                            {
+                                "color":  "Preto",
+                                "images":  [
+                                               "images/products/10627343/conjunto_olivia_1_20261023064815_a0ce6e3df8b7.jpg",
+                                               "images/products/10627343/conjunto_olivia_10_20261023090737_83e9d7c580e4.jpg",
+                                               "images/products/9515816/sada_amanda_8_20261023104630_de6baa79ed06.jpg",
+                                               "images/products/10627343/conjunto_olivia_12_20261023090737_81844f060d43.jpg",
+                                               "images/products/10627343/conjunto_olivia_13_20261023090737_90ed0c15e269.jpg",
+                                               "images/products/9515816/sada_amanda_11_20261023104630_a24afd404813.jpg",
+                                               "images/products/10627343/conjunto_olivia_15_20261023090737_2cc9b82fd4b2.jpg",
+                                               "images/products/10627343/conjunto_olivia_16_20261023090737_08571109cb22.jpg",
+                                               "images/products/10627343/conjunto_olivia_17_20261023090737_3a32b7670860.jpg",
+                                               "images/products/10627343/conjunto_olivia_18_20261023090737_3f19e30f03e7.jpg",
+                                               "images/products/10627343/conjunto_olivia_19_20261023090737_646ca6f1b2b3.jpg",
+                                               "images/products/10627343/conjunto_olivia_2_20261023064815_43e5dd44a051.jpg",
+                                               "images/products/10627343/conjunto_olivia_20_20261023090737_814521f36312.jpg",
+                                               "images/products/10627343/conjunto_olivia_3_20261023064815_7fc516a3b820.jpg",
+                                               "images/products/10627343/conjunto_olivia_4_20261023064815_b5b746aa86c1.jpg",
+                                               "images/products/10627343/conjunto_olivia_5_20261023064815_5740eca37aaf.jpg",
+                                               "images/products/10627343/conjunto_olivia_6_20261023064815_570e075cc5ab.jpg",
+                                               "images/products/10627343/conjunto_olivia_7_20261023064815_bfd6c8fd4ef8.jpg",
+                                               "images/products/10627343/conjunto_olivia_8_20261023064815_7357fec29940.jpg",
+                                               "images/products/9515816/sada_amanda_12_20261023104630_dc49c9e3b3f4.jpg"
+                                           ]
+                            },
+                            {
+                                "color":  "Branco",
+                                "images":  [
+                                               "images/products/10627343/conjunto_olivia_10_20261023090737_83e9d7c580e4.jpg",
+                                               "images/products/9515816/sada_amanda_8_20261023104630_de6baa79ed06.jpg",
+                                               "images/products/10627343/conjunto_olivia_12_20261023090737_81844f060d43.jpg",
+                                               "images/products/10627343/conjunto_olivia_13_20261023090737_90ed0c15e269.jpg",
+                                               "images/products/9515816/sada_amanda_11_20261023104630_a24afd404813.jpg",
+                                               "images/products/10627343/conjunto_olivia_15_20261023090737_2cc9b82fd4b2.jpg",
+                                               "images/products/10627343/conjunto_olivia_16_20261023090737_08571109cb22.jpg",
+                                               "images/products/10627343/conjunto_olivia_17_20261023090737_3a32b7670860.jpg",
+                                               "images/products/10627343/conjunto_olivia_18_20261023090737_3f19e30f03e7.jpg",
+                                               "images/products/10627343/conjunto_olivia_19_20261023090737_646ca6f1b2b3.jpg",
+                                               "images/products/10627343/conjunto_olivia_20_20261023090737_814521f36312.jpg",
+                                               "images/products/9515816/sada_amanda_12_20261023104630_dc49c9e3b3f4.jpg"
+                                           ]
+                            },
+                            {
+                                "color":  "Chocolate Escuro",
+                                "images":  [
+                                               "images/products/10627343/conjunto_olivia_1_20261023064815_a0ce6e3df8b7.jpg",
+                                               "images/products/10627343/conjunto_olivia_2_20261023064815_43e5dd44a051.jpg",
+                                               "images/products/10627343/conjunto_olivia_3_20261023064815_7fc516a3b820.jpg",
+                                               "images/products/10627343/conjunto_olivia_4_20261023064815_b5b746aa86c1.jpg",
+                                               "images/products/10627343/conjunto_olivia_5_20261023064815_5740eca37aaf.jpg",
+                                               "images/products/10627343/conjunto_olivia_6_20261023064815_570e075cc5ab.jpg",
+                                               "images/products/10627343/conjunto_olivia_7_20261023064815_bfd6c8fd4ef8.jpg",
+                                               "images/products/10627343/conjunto_olivia_8_20261023064815_7357fec29940.jpg"
+                                           ]
+                            }
+                        ],
+        "variants":  [
+                         {
+                             "id":  "31080427",
+                             "color":  "Preto",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_000000_1790795018.png",
+                             "images":  [
+                                            "images/products/10627343/conjunto_olivia_1_20261023064815_a0ce6e3df8b7.jpg",
+                                            "images/products/10627343/conjunto_olivia_2_20261023064815_43e5dd44a051.jpg",
+                                            "images/products/10627343/conjunto_olivia_3_20261023064815_7fc516a3b820.jpg",
+                                            "images/products/10627343/conjunto_olivia_4_20261023064815_b5b746aa86c1.jpg",
+                                            "images/products/10627343/conjunto_olivia_5_20261023064815_5740eca37aaf.jpg",
+                                            "images/products/10627343/conjunto_olivia_6_20261023064815_570e075cc5ab.jpg",
+                                            "images/products/10627343/conjunto_olivia_7_20261023064815_bfd6c8fd4ef8.jpg",
+                                            "images/products/10627343/conjunto_olivia_8_20261023064815_7357fec29940.jpg",
+                                            "images/products/9515816/sada_amanda_12_20261023104630_dc49c9e3b3f4.jpg",
+                                            "images/products/10627343/conjunto_olivia_10_20261023090737_83e9d7c580e4.jpg",
+                                            "images/products/9515816/sada_amanda_8_20261023104630_de6baa79ed06.jpg",
+                                            "images/products/10627343/conjunto_olivia_12_20261023090737_81844f060d43.jpg",
+                                            "images/products/10627343/conjunto_olivia_13_20261023090737_90ed0c15e269.jpg",
+                                            "images/products/9515816/sada_amanda_11_20261023104630_a24afd404813.jpg",
+                                            "images/products/10627343/conjunto_olivia_15_20261023090737_2cc9b82fd4b2.jpg",
+                                            "images/products/10627343/conjunto_olivia_16_20261023090737_08571109cb22.jpg",
+                                            "images/products/10627343/conjunto_olivia_17_20261023090737_3a32b7670860.jpg",
+                                            "images/products/10627343/conjunto_olivia_18_20261023090737_3f19e30f03e7.jpg",
+                                            "images/products/10627343/conjunto_olivia_19_20261023090737_646ca6f1b2b3.jpg",
+                                            "images/products/10627343/conjunto_olivia_20_20261023090737_814521f36312.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "31080429",
+                             "color":  "Branco",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/7638054/swatches/cor_FFFFFF_1790795018.png",
+                             "images":  [
+                                            "images/products/9515816/sada_amanda_12_20261023104630_dc49c9e3b3f4.jpg",
+                                            "images/products/10627343/conjunto_olivia_10_20261023090737_83e9d7c580e4.jpg",
+                                            "images/products/9515816/sada_amanda_8_20261023104630_de6baa79ed06.jpg",
+                                            "images/products/10627343/conjunto_olivia_12_20261023090737_81844f060d43.jpg",
+                                            "images/products/10627343/conjunto_olivia_13_20261023090737_90ed0c15e269.jpg",
+                                            "images/products/9515816/sada_amanda_11_20261023104630_a24afd404813.jpg",
+                                            "images/products/10627343/conjunto_olivia_15_20261023090737_2cc9b82fd4b2.jpg",
+                                            "images/products/10627343/conjunto_olivia_16_20261023090737_08571109cb22.jpg",
+                                            "images/products/10627343/conjunto_olivia_17_20261023090737_3a32b7670860.jpg",
+                                            "images/products/10627343/conjunto_olivia_18_20261023090737_3f19e30f03e7.jpg",
+                                            "images/products/10627343/conjunto_olivia_19_20261023090737_646ca6f1b2b3.jpg",
+                                            "images/products/10627343/conjunto_olivia_20_20261023090737_814521f36312.jpg"
+                                        ]
+                         },
+                         {
+                             "id":  "31080431",
+                             "color":  "Chocolate Escuro",
+                             "size":  "M",
+                             "availableInSource":  true,
+                             "swatch":  "images/products/10627339/swatches/cor_32-n3rar_1790795507.jpg",
+                             "images":  [
+                                            "images/products/10627343/conjunto_olivia_1_20261023064815_a0ce6e3df8b7.jpg",
+                                            "images/products/10627343/conjunto_olivia_2_20261023064815_43e5dd44a051.jpg",
+                                            "images/products/10627343/conjunto_olivia_3_20261023064815_7fc516a3b820.jpg",
+                                            "images/products/10627343/conjunto_olivia_4_20261023064815_b5b746aa86c1.jpg",
+                                            "images/products/10627343/conjunto_olivia_5_20261023064815_5740eca37aaf.jpg",
+                                            "images/products/10627343/conjunto_olivia_6_20261023064815_570e075cc5ab.jpg",
+                                            "images/products/10627343/conjunto_olivia_7_20261023064815_bfd6c8fd4ef8.jpg",
+                                            "images/products/10627343/conjunto_olivia_8_20261023064815_7357fec29940.jpg"
+                                        ]
+                         }
+                     ]
     }
 ];
