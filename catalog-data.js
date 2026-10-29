@@ -206,9 +206,9 @@ window.CATALOG_PRODUCTS = [
     },
     {
         "id":  "saia-brisa",
-        "name":  "Saia Brisa",
+        "name":  "Conjunto Biquíni + Saia Brisa",
         "path":  "moda-praia/saia-brisa",
-        "category":  "saia",
+        "category":  "conjunto",
         "family":  "moda-praia",
         "images":  [
                        "images/108-3smtt.jpg",
@@ -597,7 +597,7 @@ window.CATALOG_FIXED_PRICES = {
     "calca-buzios": 19.99,
     "biquini-marquinha-vies": 14.99,
     "biquini-punta-cana": 14.99,
-    "saia-brisa": 19.99,
+    "saia-brisa": 39.99,
     "biquini-brenda": 14.99,
     "saida-tulum": 29.99,
     "maio-greta-1": 19.99,

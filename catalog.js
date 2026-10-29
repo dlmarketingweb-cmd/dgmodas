@@ -32,8 +32,7 @@
     { id: "body", title: "Bodys", category: "body" },
     { id: "conjunto", title: "Conjuntos e trios", category: "conjunto" },
     { id: "vestido", title: "Vestidos", category: "vestido" },
-    { id: "calca", title: "Calças", category: "calca" },
-    { id: "saia", title: "Saias", category: "saia" }
+    { id: "calca", title: "Calças", category: "calca" }
   ];
   const categoryImageProducts = {
     "moda-praia": "trio-loren",
@@ -44,8 +43,7 @@
     body: "body-antonia",
     conjunto: "trio-loren",
     vestido: "vestido-curto-alcas-finas-decote-quadrado",
-    calca: "calca-buzios",
-    saia: "saia-brisa"
+    calca: "calca-buzios"
   };
 
   const app = document.getElementById("app");
