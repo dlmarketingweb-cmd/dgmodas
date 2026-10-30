@@ -53,6 +53,7 @@
   const FREE_SHIPPING_THRESHOLD = 250;
   const BLACK_FRIDAY_THRESHOLD_CENTS = 50000;
   const BLACK_FRIDAY_GIFT_CENTS = 10000;
+  const PROMOTION_DURATION_MS = 5000;
   const BEACHWEAR_SIZES = ["P", "M", "G"];
   const promoMessages = [
     "ENVIAMOS PARA TODO O BRASIL",
@@ -68,6 +69,7 @@
   let drawerClosing = false;
   let promotionOpen = true;
   let scrollToPromotionCatalog = false;
+  let promotionCloseTimer;
   let drawerCloseTimer;
   let toastTimer;
   let promoCarouselTimer;
@@ -625,6 +627,8 @@
 
   function closePromotion(browseCatalog) {
     promotionOpen = false;
+    window.clearTimeout(promotionCloseTimer);
+    promotionCloseTimer = null;
     if (browseCatalog && location.hash !== "#/") {
       scrollToPromotionCatalog = true;
       location.hash = "#/";
@@ -870,4 +874,7 @@
   }
 
   render();
+  promotionCloseTimer = window.setTimeout(function () {
+    closePromotion(false);
+  }, PROMOTION_DURATION_MS);
 }());

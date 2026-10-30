@@ -444,9 +444,10 @@ button { cursor: pointer; }
 }
 .promotion-dialog {
   position: relative;
-  width: min(560px, 100%);
-  padding: clamp(30px, 6vw, 52px);
-  overflow: hidden;
+  width: min(480px, 100%);
+  max-height: calc(100vh - 40px);
+  padding: 24px;
+  overflow-y: auto;
   border: 1px solid #854d70;
   border-radius: 22px;
   background: radial-gradient(ellipse at 50% 0, #713a9140, transparent 55%), #141116;
@@ -482,16 +483,16 @@ button { cursor: pointer; }
 .promotion-close:hover { background: #ffffff20; }
 .promotion-eyebrow {
   display: block;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
   color: #d3a9e3;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 750;
   letter-spacing: .16em;
   text-transform: uppercase;
 }
 .promotion-dialog h2 {
-  margin: 0 0 20px;
-  font-size: clamp(24px, 5vw, 34px);
+  margin: 0 0 10px;
+  font-size: clamp(22px, 4vw, 26px);
   font-weight: 800;
   line-height: 1.15;
 }
@@ -499,33 +500,33 @@ button { cursor: pointer; }
 .promotion-main-offer {
   margin: 0;
   color: #f5ed00;
-  font-size: clamp(20px, 4.5vw, 28px);
+  font-size: clamp(18px, 3.8vw, 21px);
   font-weight: 850;
   line-height: 1.25;
 }
 .promotion-description {
-  max-width: 430px;
-  margin: 16px auto;
+  max-width: 400px;
+  margin: 8px auto;
   color: #eee9f0;
-  font-size: 14px;
-  line-height: 1.65;
+  font-size: 12px;
+  line-height: 1.45;
 }
 .promotion-total {
-  margin: 20px 0 10px;
+  margin: 10px 0 6px;
   color: #fff;
-  font-size: clamp(16px, 3.8vw, 21px);
+  font-size: clamp(16px, 3.8vw, 18px);
   font-weight: 800;
   line-height: 1.35;
 }
 .promotion-terms {
-  margin: 0 0 22px;
+  margin: 0 0 12px;
   color: #c9c1cb;
   font-size: 11px;
   line-height: 1.5;
 }
 .button.promotion-cta {
   width: 100%;
-  min-height: 52px;
+  min-height: 42px;
   border-color: #f5ed00;
   background: #f5ed00;
   color: #17141a;
@@ -642,7 +643,7 @@ button { cursor: pointer; }
   .contact-whatsapp { right: 14px; bottom: 14px; width: 44px; height: 44px; }
   .contact-whatsapp svg { width: 25px; height: 25px; }
   .promotion-backdrop { padding: 14px; }
-  .promotion-dialog { padding: 36px 22px 24px; border-radius: 18px; }
+  .promotion-dialog { padding: 24px 18px 18px; border-radius: 18px; }
   .promotion-close { top: 9px; right: 9px; width: 34px; height: 34px; }
   #catalog-products { scroll-margin-top: 112px; }
 }
